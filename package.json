@@ -6,7 +6,6 @@
   "license": "MIT",
   "packageManager": "yarn@3.5.1",
   "devDependencies": {
-    "@changesets/cli": "^2.26.1",
-    "icona-cli": "0.0.1-test.0"
+    "@changesets/cli": "^2.26.1"
   }
 }
