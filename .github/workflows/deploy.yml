@@ -18,11 +18,11 @@ jobs:
           node-version: 18
 
       - name: Install Icona CLI
-        run: npm install icona-cli          
+        run: npm install icona-cli -g
 
       - name: Generate SVG files
         run: |
-          npm run icona generate
+          icona generate
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "GitHub Action"
           git add .
