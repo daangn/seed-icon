@@ -1,6 +1,8 @@
 # generate svg github action
 on:
   push:
+    branches:
+      - 'icona-update-**'
     paths:
       - '.icona/icons.json'
 
