@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - 'icona-update-**'
-    paths:
-      - '.icona/icons.json'
 
 name: Generate SVG files from icons.json
 
