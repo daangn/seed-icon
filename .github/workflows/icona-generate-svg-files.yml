@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - 'icona-update-**'
+    paths:
+      - '.icona/icons.json' # only run workflow when icons.json is updated
 
 name: Generate SVG files from icons.json
 
