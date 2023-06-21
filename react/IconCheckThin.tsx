@@ -1,13 +1,21 @@
-import * as React from 'react';
 import type { SVGProps } from 'react';
 const IconCheckThin = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props}>
-    <path
-      fill="currentColor"
-      fillRule="evenodd"
-      d="M21.204 4.141a.75.75 0 0 1 .159 1.03L10.785 19.697a.709.709 0 0 1-1.112.062l-6.986-7.762a.752.752 0 0 1 .048-1.042.705.705 0 0 1 1.015.05l6.392 7.092L20.201 4.304a.706.706 0 0 1 1.003-.163Z"
-      clipRule="evenodd"
-    />
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    data-seed-icon="true"
+    data-seed-icon-version="0.3.0-alpha.0"
+    {...props}
+  >
+    <g>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M21.2041 4.14115C21.525 4.38078 21.5959 4.84215 21.3626 5.17165L10.7851 19.6962C10.6581 19.8756 10.4591 19.9868 10.2433 19.9989C10.0276 20.011 9.81804 19.9227 9.6727 19.7585L2.68681 11.9963C2.41995 11.6948 2.44158 11.2282 2.73513 10.9542C3.02867 10.6801 3.48296 10.7023 3.74982 11.0038L10.1422 18.0956L20.2007 4.30386C20.4341 3.97436 20.8833 3.90151 21.2041 4.14115Z"
+        fill="currentColor"
+      />
+    </g>
   </svg>
 );
 export default IconCheckThin;

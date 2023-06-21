@@ -1,14 +1,36 @@
-import * as React from 'react';
 import type { SVGProps } from 'react';
 const IconListThumbnailThin = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props}>
-    <g fill="currentColor">
-      <path
-        fillRule="evenodd"
-        d="M3 5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5Zm1.2 3.8V5.2h3.6v3.6H4.2ZM3 14a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-4Zm1.2 3.8v-3.6h3.6v3.6H4.2Z"
-        clipRule="evenodd"
-      />
-      <path d="M11.4 7a.6.6 0 0 1 .6-.6h9a.6.6 0 1 1 0 1.2h-9a.6.6 0 0 1-.6-.6ZM12 15.4a.6.6 0 0 0 0 1.2h9a.6.6 0 1 0 0-1.2h-9Z" />
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    data-seed-icon="true"
+    data-seed-icon-version="0.3.0-alpha.0"
+    {...props}
+  >
+    <g>
+      <g>
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M3 5C3 4.44772 3.44772 4 4 4H8C8.55228 4 9 4.44772 9 5V9C9 9.55228 8.55228 10 8 10H4C3.44772 10 3 9.55228 3 9V5ZM4.2 8.8V5.2H7.8V8.8H4.2Z"
+          fill="currentColor"
+        />
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M3 14C3 13.4477 3.44772 13 4 13H8C8.55228 13 9 13.4477 9 14V18C9 18.5523 8.55228 19 8 19H4C3.44772 19 3 18.5523 3 18V14ZM4.2 17.8V14.2H7.8V17.8H4.2Z"
+          fill="currentColor"
+        />
+        <path
+          d="M11.4 7.00002C11.4 6.66865 11.6687 6.40002 12 6.40002H21C21.3314 6.40002 21.6 6.66865 21.6 7.00002C21.6 7.3314 21.3314 7.60002 21 7.60002H12C11.6687 7.60002 11.4 7.3314 11.4 7.00002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M12 15.4C11.6687 15.4 11.4 15.6687 11.4 16C11.4 16.3314 11.6687 16.6 12 16.6H21C21.3314 16.6 21.6 16.3314 21.6 16C21.6 15.6687 21.3314 15.4 21 15.4H12Z"
+          fill="currentColor"
+        />
+      </g>
     </g>
   </svg>
 );

@@ -1,6 +1,6 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g id="Weight=Fill">
-    <g id="vector">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-seed-icon="true" data-seed-icon-version="0.3.0-alpha.0">
+  <g>
+    <g>
       <path d="M9.60575 14.0679L9.27517 13.2001H9.85368L9.60575 14.0679Z" fill="currentColor"/>
       <path d="M12 11.5121L12.0252 11.6001H11.9749L12 11.5121Z" fill="currentColor"/>
       <path d="M14.3943 14.0679L14.1463 13.2001H14.7248L14.3943 14.0679Z" fill="currentColor"/>

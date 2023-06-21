@@ -1,13 +1,21 @@
-import * as React from 'react';
 import type { SVGProps } from 'react';
 const IconSearchThin = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props}>
-    <path
-      fill="currentColor"
-      fillRule="evenodd"
-      d="M10.5 2.4a8.1 8.1 0 1 0 5.288 14.236l4.788 4.788a.6.6 0 0 0 .848-.848l-4.788-4.788A8.1 8.1 0 0 0 10.5 2.4Zm-6.9 8.1a6.9 6.9 0 1 1 13.8 0 6.9 6.9 0 0 1-13.8 0Z"
-      clipRule="evenodd"
-    />
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    data-seed-icon="true"
+    data-seed-icon-version="0.3.0-alpha.0"
+    {...props}
+  >
+    <g>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M10.4999 2.3999C6.0264 2.3999 2.3999 6.0264 2.3999 10.4999C2.3999 14.9734 6.0264 18.5999 10.4999 18.5999C12.5207 18.5999 14.3687 17.8599 15.7876 16.6361L20.5756 21.4242C20.81 21.6585 21.1899 21.6585 21.4242 21.4242C21.6585 21.1899 21.6585 20.81 21.4242 20.5756L16.6361 15.7876C17.8599 14.3687 18.5999 12.5207 18.5999 10.4999C18.5999 6.0264 14.9734 2.3999 10.4999 2.3999ZM3.5999 10.4999C3.5999 6.68914 6.68914 3.5999 10.4999 3.5999C14.3107 3.5999 17.3999 6.68914 17.3999 10.4999C17.3999 14.3107 14.3107 17.3999 10.4999 17.3999C6.68914 17.3999 3.5999 14.3107 3.5999 10.4999Z"
+        fill="currentColor"
+      />
+    </g>
   </svg>
 );
 export default IconSearchThin;

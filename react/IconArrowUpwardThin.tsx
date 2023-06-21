@@ -1,13 +1,21 @@
-import * as React from 'react';
 import type { SVGProps } from 'react';
 const IconArrowUpwardThin = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props}>
-    <path
-      fill="currentColor"
-      fillRule="evenodd"
-      d="M19.424 11.424a.6.6 0 0 1-.848 0L12.6 5.448V20a.6.6 0 1 1-1.2 0V5.448l-5.976 5.976a.6.6 0 0 1-.848-.848l7-7a.6.6 0 0 1 .848 0l7 7a.6.6 0 0 1 0 .848Z"
-      clipRule="evenodd"
-    />
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    data-seed-icon="true"
+    data-seed-icon-version="0.3.0-alpha.0"
+    {...props}
+  >
+    <g>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M19.4244 11.4242C19.19 11.6585 18.8101 11.6585 18.5758 11.4242L12.6001 5.44843V19.9999C12.6001 20.3313 12.3315 20.5999 12.0001 20.5999C11.6687 20.5999 11.4001 20.3313 11.4001 19.9999V5.44843L5.42436 11.4242C5.19005 11.6585 4.81015 11.6585 4.57583 11.4242C4.34152 11.1899 4.34152 10.81 4.57583 10.5756L11.5758 3.57564C11.8101 3.34132 12.19 3.34132 12.4244 3.57564L19.4244 10.5756C19.6587 10.81 19.6587 11.1899 19.4244 11.4242Z"
+        fill="currentColor"
+      />
+    </g>
   </svg>
 );
 export default IconArrowUpwardThin;

@@ -1,13 +1,21 @@
-import * as React from 'react';
 import type { SVGProps } from 'react';
 const IconArrowDropDownThin = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props}>
-    <path
-      fill="currentColor"
-      fillRule="evenodd"
-      d="M12 15.6a.6.6 0 0 0 .46-.216l5-6A.6.6 0 0 0 17 8.4H7a.6.6 0 0 0-.461.984l5 6a.6.6 0 0 0 .46.216Zm-3.72-6h7.439l-3.72 4.463L8.282 9.6Z"
-      clipRule="evenodd"
-    />
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    data-seed-icon="true"
+    data-seed-icon-version="0.3.0-alpha.0"
+    {...props}
+  >
+    <g>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M11.9999 15.6001C12.178 15.6001 12.3468 15.521 12.4608 15.3842L17.4608 9.38421C17.6099 9.20536 17.642 8.95644 17.5433 8.7456C17.4445 8.53477 17.2327 8.4001 16.9999 8.4001H6.99991C6.7671 8.4001 6.5553 8.53477 6.45656 8.7456C6.35781 8.95644 6.38994 9.20536 6.53898 9.38421L11.539 15.3842C11.653 15.521 11.8218 15.6001 11.9999 15.6001ZM8.28093 9.6001H15.7189L11.9999 14.0629L8.28093 9.6001Z"
+        fill="currentColor"
+      />
+    </g>
   </svg>
 );
 export default IconArrowDropDownThin;

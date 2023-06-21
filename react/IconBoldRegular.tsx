@@ -1,13 +1,21 @@
-import * as React from 'react';
 import type { SVGProps } from 'react';
 const IconBoldRegular = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props}>
-    <path
-      fill="currentColor"
-      fillRule="evenodd"
-      d="M7 3.2a.8.8 0 0 0-.8.8v16a.8.8 0 0 0 .8.8h6.085a4.715 4.715 0 0 0 4.715-4.715c0-1.914-1.1-3.57-2.703-4.372A4.705 4.705 0 0 0 16.8 8.085 4.885 4.885 0 0 0 11.915 3.2H7Zm5.085 8A3.115 3.115 0 0 0 15.2 8.085 3.285 3.285 0 0 0 11.915 4.8H7.8v6.4h4.285ZM7.8 12.8v6.4h5.285a3.115 3.115 0 0 0 3.115-3.115 3.285 3.285 0 0 0-3.285-3.285H7.8Z"
-      clipRule="evenodd"
-    />
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    data-seed-icon="true"
+    data-seed-icon-version="0.3.0-alpha.0"
+    {...props}
+  >
+    <g>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M6.99995 3.2002C6.55812 3.2002 6.19995 3.55837 6.19995 4.0002V20.0002C6.19995 20.442 6.55812 20.8002 6.99995 20.8002H13.0851C15.689 20.8002 17.8 18.6893 17.8 16.0853C17.8 14.1714 16.6994 12.5146 15.0966 11.7133C16.1373 10.8484 16.8 9.54424 16.8 8.0853C16.8 5.38733 14.6128 3.2002 11.9148 3.2002H6.99995ZM12.0851 11.2002C13.8054 11.2002 15.2 9.80561 15.2 8.0853C15.2 6.27099 13.7292 4.8002 11.9148 4.8002H7.79995V11.2002H12.0851ZM7.79995 12.8002V19.2002H13.0851C14.8054 19.2002 16.2 17.8056 16.2 16.0853C16.2 14.271 14.7292 12.8002 12.9148 12.8002H7.79995Z"
+        fill="currentColor"
+      />
+    </g>
   </svg>
 );
 export default IconBoldRegular;

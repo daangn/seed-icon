@@ -1,13 +1,21 @@
-import * as React from 'react';
 import type { SVGProps } from 'react';
 const IconLaptopFill = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props}>
-    <path
-      fill="currentColor"
-      stroke="currentColor"
-      strokeWidth={2}
-      d="M21 18v1H4V7a1 1 0 0 1 1-1h15a1 1 0 0 1 1 1v11Zm-10.95-3.007a1.5 1.5 0 1 0 0 3h4.7a1.5 1.5 0 0 0 0-3h-4.7Z"
-    />
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    data-seed-icon="true"
+    data-seed-icon-version="0.3.0-alpha.0"
+    {...props}
+  >
+    <g>
+      <path
+        d="M21 18V19H4V18V7C4 6.44772 4.44772 6 5 6H20C20.5523 6 21 6.44772 21 7V18ZM10.05 14.9926C9.22157 14.9926 8.55 15.6641 8.55 16.4926C8.55 17.321 9.22157 17.9926 10.05 17.9926H14.75C15.5784 17.9926 16.25 17.321 16.25 16.4926C16.25 15.6641 15.5784 14.9926 14.75 14.9926H10.05Z"
+        fill="currentColor"
+        stroke="currentColor"
+        strokeWidth={2}
+      />
+    </g>
   </svg>
 );
 export default IconLaptopFill;

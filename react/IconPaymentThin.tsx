@@ -1,14 +1,26 @@
-import * as React from 'react';
 import type { SVGProps } from 'react';
 const IconPaymentThin = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props}>
-    <g fill="currentColor">
-      <path d="M5 15.4a.6.6 0 1 0 0 1.2h5a.6.6 0 1 0 0-1.2H5Z" />
-      <path
-        fillRule="evenodd"
-        d="M3.6 3.4A2.6 2.6 0 0 0 1 6v12a2.6 2.6 0 0 0 2.6 2.6h16.8A2.6 2.6 0 0 0 23 18V6a2.6 2.6 0 0 0-2.6-2.6H3.6ZM2.2 6a1.4 1.4 0 0 1 1.4-1.4h16.8A1.4 1.4 0 0 1 21.8 6v12a1.4 1.4 0 0 1-1.4 1.4H3.6A1.4 1.4 0 0 1 2.2 18V9.6h19.6V8.4H2.2V6Z"
-        clipRule="evenodd"
-      />
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    data-seed-icon="true"
+    data-seed-icon-version="0.3.0-alpha.0"
+    {...props}
+  >
+    <g>
+      <g>
+        <path
+          d="M4.99991 15.3999C4.66854 15.3999 4.39991 15.6685 4.39991 15.9999C4.39991 16.3313 4.66854 16.5999 4.99991 16.5999H9.99991C10.3313 16.5999 10.5999 16.3313 10.5999 15.9999C10.5999 15.6685 10.3313 15.3999 9.99991 15.3999H4.99991Z"
+          fill="currentColor"
+        />
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M3.6 3.3999C2.16406 3.3999 1 4.56396 1 5.9999V17.9999C1 19.4358 2.16406 20.5999 3.6 20.5999H20.4C21.8359 20.5999 23 19.4358 23 17.9999V5.9999C23 4.56396 21.836 3.3999 20.4 3.3999H3.6ZM2.2 5.9999C2.2 5.2267 2.8268 4.5999 3.6 4.5999H20.4C21.1732 4.5999 21.8 5.2267 21.8 5.9999V17.9999C21.8 18.7731 21.1732 19.3999 20.4 19.3999H3.6C2.8268 19.3999 2.2 18.7731 2.2 17.9999V9.5999H21.8V8.3999H2.2V5.9999Z"
+          fill="currentColor"
+        />
+      </g>
     </g>
   </svg>
 );

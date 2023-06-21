@@ -1,9 +1,24 @@
-import * as React from 'react';
 import type { SVGProps } from 'react';
 const IconNotificationFill = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props}>
-    <g fill="currentColor">
-      <path d="M12 2.2A6.805 6.805 0 0 0 5.2 9v4.758l-1.866 2.798A.8.8 0 0 0 3.2 17v1a.8.8 0 0 0 .8.8h16a.8.8 0 0 0 .8-.8v-1a.8.8 0 0 0-.134-.444L18.8 13.758V9c0-3.752-3.048-6.8-6.8-6.8ZM12 21.8a2.794 2.794 0 0 1-2.413-1.4h4.826A2.794 2.794 0 0 1 12 21.8Z" />
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    data-seed-icon="true"
+    data-seed-icon-version="0.3.0-alpha.0"
+    {...props}
+  >
+    <g>
+      <g>
+        <path
+          d="M12 2.19995C8.24812 2.19995 5.19995 5.24812 5.19995 8.99995V13.7577L3.33431 16.5562C3.2467 16.6876 3.19995 16.842 3.19995 17V18C3.19995 18.4418 3.55812 18.8 3.99995 18.8H20C20.4418 18.8 20.7999 18.4418 20.7999 18V17C20.7999 16.842 20.7532 16.6876 20.6656 16.5562L18.8 13.7577V8.99995C18.8 5.24812 15.7518 2.19995 12 2.19995Z"
+          fill="currentColor"
+        />
+        <path
+          d="M12.0001 21.7999C10.9685 21.7999 10.0729 21.2334 9.58716 20.3999H14.4131C13.9273 21.2334 13.0318 21.7999 12.0001 21.7999Z"
+          fill="currentColor"
+        />
+      </g>
     </g>
   </svg>
 );

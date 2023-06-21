@@ -1,13 +1,21 @@
-import * as React from 'react';
 import type { SVGProps } from 'react';
 const IconSubtractionThin = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props}>
-    <path
-      fill="currentColor"
-      fillRule="evenodd"
-      d="M2.4 12a.6.6 0 0 1 .6-.6h18a.6.6 0 1 1 0 1.2H3a.6.6 0 0 1-.6-.6Z"
-      clipRule="evenodd"
-    />
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    data-seed-icon="true"
+    data-seed-icon-version="0.3.0-alpha.0"
+    {...props}
+  >
+    <g>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M2.3999 11.9999C2.3999 11.6685 2.66853 11.3999 2.9999 11.3999H20.9999C21.3313 11.3999 21.5999 11.6685 21.5999 11.9999C21.5999 12.3313 21.3313 12.5999 20.9999 12.5999H2.9999C2.66853 12.5999 2.3999 12.3313 2.3999 11.9999Z"
+        fill="currentColor"
+      />
+    </g>
   </svg>
 );
 export default IconSubtractionThin;

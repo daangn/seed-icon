@@ -1,13 +1,21 @@
-import * as React from 'react';
 import type { SVGProps } from 'react';
 const IconCheckRegular = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props}>
-    <path
-      fill="currentColor"
-      fillRule="evenodd"
-      d="M21.116 4.178a.931.931 0 0 1 .206 1.301L11.007 19.288a.932.932 0 0 1-1.443.078l-6.822-7.404a.931.931 0 1 1 1.379-1.253l6.052 6.558 9.642-12.883a.931.931 0 0 1 1.301-.206Z"
-      clipRule="evenodd"
-    />
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    data-seed-icon="true"
+    data-seed-icon-version="0.3.0-alpha.0"
+    {...props}
+  >
+    <g>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M21.1163 4.17823C21.5324 4.48082 21.6244 5.06339 21.3218 5.47945L11.0067 19.2876C10.8419 19.5142 10.5839 19.6546 10.3042 19.6699C10.0244 19.6851 9.75262 19.5736 9.56415 19.3663L2.74225 11.9622C2.39619 11.5816 2.42425 10.9925 2.80491 10.6464C3.18558 10.3003 3.77471 10.3284 4.12077 10.7091L10.173 17.2665L19.8151 4.38368C20.1177 3.96763 20.7003 3.87564 21.1163 4.17823Z"
+        fill="currentColor"
+      />
+    </g>
   </svg>
 );
 export default IconCheckRegular;

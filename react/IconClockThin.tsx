@@ -1,10 +1,28 @@
-import * as React from 'react';
 import type { SVGProps } from 'react';
 const IconClockThin = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props}>
-    <g fill="currentColor" fillRule="evenodd" clipRule="evenodd">
-      <path d="M12 5.9a.6.6 0 0 1 .6.6v5.644l4.187 1.83a.6.6 0 1 1-.574 1.053l-4.813-2.17V6.5a.6.6 0 0 1 .6-.6Z" />
-      <path d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm10-8.667a8.667 8.667 0 1 0 0 17.334 8.667 8.667 0 0 0 0-17.334Z" />
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    data-seed-icon="true"
+    data-seed-icon-version="0.3.0-alpha.0"
+    {...props}
+  >
+    <g>
+      <g>
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M11.9999 5.8999C12.3313 5.8999 12.5999 6.16853 12.5999 6.4999V12.1437L16.7872 13.9732C17.0781 14.1318 17.1853 14.4963 17.0266 14.7872C16.868 15.0781 16.5035 15.1853 16.2126 15.0266L11.3999 12.8561V6.4999C11.3999 6.16853 11.6685 5.8999 11.9999 5.8999Z"
+          fill="currentColor"
+        />
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12ZM12 3.33333C7.21353 3.33333 3.33333 7.21353 3.33333 12C3.33333 16.7865 7.21353 20.6667 12 20.6667C16.7865 20.6667 20.6667 16.7865 20.6667 12C20.6667 7.21353 16.7865 3.33333 12 3.33333Z"
+          fill="currentColor"
+        />
+      </g>
     </g>
   </svg>
 );

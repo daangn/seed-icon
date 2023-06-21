@@ -1,19 +1,44 @@
-import * as React from 'react';
 import type { SVGProps } from 'react';
 const IconNotificationFallThin = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props}>
-    <g
-      fill="currentColor"
-      fillRule="evenodd"
-      clipPath="url(#a)"
-      clipRule="evenodd"
-    >
-      <path d="M7.544 8.583a.6.6 0 0 1 .6.6v13a.6.6 0 0 1-1.2 0v-13a.6.6 0 0 1 .6-.6ZM17.656 1a.6.6 0 0 1 .6.6v13a.6.6 0 0 1-1.2 0v-13a.6.6 0 0 1 .6-.6Z" />
-      <path d="M12.176 10.176a.6.6 0 0 1 .848 0L17.6 14.75l4.576-4.575a.6.6 0 0 1 .848.848l-5 5a.6.6 0 0 1-.848 0l-5-5a.6.6 0 0 1 0-.848ZM2.176 18.176a.6.6 0 0 1 .848 0L7.6 22.752l4.576-4.576a.6.6 0 0 1 .848.848l-5 5a.6.6 0 0 1-.848 0l-5-5a.6.6 0 0 1 0-.848Z" />
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    data-seed-icon="true"
+    data-seed-icon-version="0.3.0-alpha.0"
+    {...props}
+  >
+    <g clipPath="url(#clip0_9147_1757)">
+      <g>
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M7.54434 8.58325C7.87571 8.58325 8.14434 8.85188 8.14434 9.18325V22.1833C8.14434 22.5146 7.87571 22.7833 7.54434 22.7833C7.21296 22.7833 6.94434 22.5146 6.94434 22.1833V9.18325C6.94434 8.85188 7.21296 8.58325 7.54434 8.58325Z"
+          fill="currentColor"
+        />
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M17.6557 1C17.987 1 18.2557 1.26863 18.2557 1.6V14.6C18.2557 14.9314 17.987 15.2 17.6557 15.2C17.3243 15.2 17.0557 14.9314 17.0557 14.6V1.6C17.0557 1.26863 17.3243 1 17.6557 1Z"
+          fill="currentColor"
+        />
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M12.1757 10.1757C12.4101 9.94142 12.7899 9.94142 13.0243 10.1757L17.6 14.7515L22.1757 10.1757C22.4101 9.94142 22.79 9.94142 23.0243 10.1757C23.2586 10.4101 23.2586 10.7899 23.0243 11.0243L18.0243 16.0243C17.7899 16.2586 17.41 16.2586 17.1757 16.0243L12.1757 11.0243C11.9414 10.7899 11.9414 10.4101 12.1757 10.1757Z"
+          fill="currentColor"
+        />
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M2.17574 18.1757C2.41005 17.9414 2.78995 17.9414 3.02426 18.1757L7.6 22.7515L12.1757 18.1757C12.4101 17.9414 12.7899 17.9414 13.0243 18.1757C13.2586 18.4101 13.2586 18.7899 13.0243 19.0243L8.02426 24.0243C7.78995 24.2586 7.41005 24.2586 7.17574 24.0243L2.17574 19.0243C1.94142 18.7899 1.94142 18.4101 2.17574 18.1757Z"
+          fill="currentColor"
+        />
+      </g>
     </g>
     <defs>
-      <clipPath id="a">
-        <path fill="#fff" d="M0 0h24v24H0z" />
+      <clipPath>
+        <rect width={24} height={24} fill="currentColor" />
       </clipPath>
     </defs>
   </svg>

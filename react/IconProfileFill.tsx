@@ -1,9 +1,24 @@
-import * as React from 'react';
 import type { SVGProps } from 'react';
 const IconProfileFill = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props}>
-    <g fill="currentColor">
-      <path d="M12 2.6a5.6 5.6 0 1 0 0 11.2 5.6 5.6 0 0 0 0-11.2ZM12 14.6c-5.192 0-8.6 2.83-8.6 6.6a.6.6 0 0 0 .6.6h16a.6.6 0 0 0 .6-.6c0-3.77-3.409-6.6-8.6-6.6Z" />
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    data-seed-icon="true"
+    data-seed-icon-version="0.3.0-alpha.0"
+    {...props}
+  >
+    <g>
+      <g>
+        <path
+          d="M11.9999 2.6001C8.90711 2.6001 6.3999 5.1073 6.3999 8.2001C6.3999 11.2929 8.90711 13.8001 11.9999 13.8001C15.0927 13.8001 17.5999 11.2929 17.5999 8.2001C17.5999 5.1073 15.0927 2.6001 11.9999 2.6001Z"
+          fill="currentColor"
+        />
+        <path
+          d="M11.9999 14.6001C6.80842 14.6001 3.3999 17.4293 3.3999 21.2001C3.3999 21.5315 3.66853 21.8001 3.9999 21.8001H19.9999C20.3313 21.8001 20.5999 21.5315 20.5999 21.2001C20.5999 17.4293 17.1914 14.6001 11.9999 14.6001Z"
+          fill="currentColor"
+        />
+      </g>
     </g>
   </svg>
 );

@@ -1,6 +1,6 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g id="Weight=Regular">
-    <g id="vector">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-seed-icon="true" data-seed-icon-version="0.3.0-alpha.0">
+  <g>
+    <g>
       <path fill-rule="evenodd" clip-rule="evenodd" d="M4.99995 5.19995C5.44178 5.19995 5.79995 5.55812 5.79995 5.99995V18C5.79995 19.215 6.78492 20.2 7.99995 20.2H16C17.215 20.2 18.2 19.215 18.2 18V5.99995C18.2 5.55812 18.5581 5.19995 19 5.19995C19.4418 5.19995 19.8 5.55812 19.8 5.99995V18C19.8 20.0986 18.0986 21.8 16 21.8H7.99995C5.90127 21.8 4.19995 20.0986 4.19995 18V5.99995C4.19995 5.55812 4.55812 5.19995 4.99995 5.19995Z" fill="currentColor"/>
       <path fill-rule="evenodd" clip-rule="evenodd" d="M8.49995 10.2C8.94178 10.2 9.29995 10.5581 9.29995 11V16C9.29995 16.4418 8.94178 16.8 8.49995 16.8C8.05812 16.8 7.69995 16.4418 7.69995 16V11C7.69995 10.5581 8.05812 10.2 8.49995 10.2Z" fill="currentColor"/>
       <path fill-rule="evenodd" clip-rule="evenodd" d="M12 10.2C12.4418 10.2 12.8 10.5581 12.8 11V16C12.8 16.4418 12.4418 16.8 12 16.8C11.5581 16.8 11.2 16.4418 11.2 16V11C11.2 10.5581 11.5581 10.2 12 10.2Z" fill="currentColor"/>

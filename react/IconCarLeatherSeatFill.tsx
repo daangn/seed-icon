@@ -1,13 +1,21 @@
-import * as React from 'react';
 import type { SVGProps } from 'react';
 const IconCarLeatherSeatFill = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props}>
-    <path
-      fill="currentColor"
-      fillRule="evenodd"
-      d="M19.27 2.282a3.61 3.61 0 0 0-4.41 2.55l-2.59 9.65c-.03.1-.11.16-.21.16H5.65c-1.99 0-3.6 1.61-3.6 3.6s1.61 3.6 3.6 3.6h10.62c.89 0 1.67-.6 1.9-1.46l3.65-13.69a3.61 3.61 0 0 0-2.55-4.41Z"
-      clipRule="evenodd"
-    />
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    data-seed-icon="true"
+    data-seed-icon-version="0.3.0-alpha.0"
+    {...props}
+  >
+    <g>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M19.27 2.28181C17.35 1.77181 15.38 2.91181 14.86 4.83181L12.27 14.4818C12.24 14.5818 12.16 14.6418 12.06 14.6418H5.65005C3.66005 14.6418 2.05005 16.2518 2.05005 18.2418C2.05005 20.2318 3.66005 21.8418 5.65005 21.8418H16.27C17.16 21.8418 17.94 21.2418 18.17 20.3818L21.82 6.69181C22.33 4.77181 21.19 2.80181 19.27 2.28181V2.28181Z"
+        fill="currentColor"
+      />
+    </g>
   </svg>
 );
 export default IconCarLeatherSeatFill;

@@ -1,12 +1,46 @@
 {
-  "name": "@seed-icon/monorepo",
-  "version": "thisisnotpublished",
+  "name": "@seed-design/icon",
+  "version": "0.3.0-alpha.0",
   "repository": "https://github.com/daangn/seed-icon.git",
   "author": "junghyeonsu <jung660317@naver.com>",
   "license": "MIT",
   "packageManager": "yarn@3.5.1",
+  "files": [
+    "svg",
+    "drawable",
+    "pdf",
+    "lib"
+  ],
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.js",
+      "require": "./lib/index.js"
+    }
+  },
+  "scripts": {
+    "prepack": "yarn build",
+    "generate:icona": "node icona.mjs",
+    "generate:react-index": "node scripts/generate-react-index.js",
+    "build": "yarn generate:react-index && yarn build:tsc && yarn build:babel",
+    "build:tsc": "tsc --emitDeclarationOnly",
+    "build:babel": "babel -d lib react -x \".ts,.tsx\""
+  },
   "devDependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@babel/preset-modules": "^0.1.5",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
     "@changesets/cli": "^2.26.1",
-    "icona-cli": "0.0.1-test.0"
+    "@icona/generator": "0.0.10-test.0",
+    "@icona/types": "0.0.10-test.3",
+    "@icona/utils": "^0.0.9",
+    "@svgr/plugin-jsx": "^8.0.1",
+    "@svgr/plugin-prettier": "^8.0.1",
+    "@svgr/plugin-svgo": "^8.0.1",
+    "@types/react": "^18.2.12",
+    "svgo": "^3.0.2",
+    "typescript": "^5.1.3"
   }
 }

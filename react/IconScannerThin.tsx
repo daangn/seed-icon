@@ -1,9 +1,33 @@
-import * as React from 'react';
 import type { SVGProps } from 'react';
 const IconScannerThin = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props}>
-    <g fill="currentColor">
-      <path d="M4.8 2.2H7v1.2H4.8a1.4 1.4 0 0 0-1.4 1.4V7H2.2V4.8a2.6 2.6 0 0 1 2.6-2.6ZM20.2 4.8V7h1.2V4.8a2.6 2.6 0 0 0-2.6-2.6H17v1.2h1.8a1.4 1.4 0 0 1 1.4 1.4ZM18.8 20.2H17v1.2h1.8a2.6 2.6 0 0 0 2.6-2.6V17h-1.2v1.8a1.4 1.4 0 0 1-1.4 1.4ZM3.4 18.8V17H2.2v1.8a2.6 2.6 0 0 0 2.6 2.6H7v-1.2H4.8a1.4 1.4 0 0 1-1.4-1.4ZM22 11.2H2v1.2h20v-1.2Z" />
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    data-seed-icon="true"
+    data-seed-icon-version="0.3.0-alpha.0"
+    {...props}
+  >
+    <g>
+      <g>
+        <path
+          d="M4.8 2.2002H6.99999V3.4002H4.8C4.0268 3.4002 3.4 4.027 3.4 4.8002V7.00018H2.2V4.8002C2.2 3.36425 3.36406 2.2002 4.8 2.2002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M20.2 4.8002V7.00018L21.4 7.00018V4.8002C21.4 3.36426 20.2359 2.2002 18.8 2.2002H17V3.4002H18.8C19.5732 3.4002 20.2 4.027 20.2 4.8002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M18.8 20.2002H17V21.4002H18.8C20.2359 21.4002 21.4 20.2361 21.4 18.8002V17.0002H20.2V18.8002C20.2 19.5734 19.5732 20.2002 18.8 20.2002Z"
+          fill="currentColor"
+        />
+        <path
+          d="M3.4 18.8002V17.0002H2.2V18.8002C2.2 20.2361 3.36406 21.4002 4.8 21.4002H6.99999V20.2002H4.8C4.0268 20.2002 3.4 19.5734 3.4 18.8002Z"
+          fill="currentColor"
+        />
+        <path d="M22 11.2001H2V12.4001H22V11.2001Z" fill="currentColor" />
+      </g>
     </g>
   </svg>
 );

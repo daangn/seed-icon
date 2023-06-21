@@ -1,10 +1,34 @@
-import * as React from 'react';
 import type { SVGProps } from 'react';
 const IconChartThin = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props}>
-    <g fill="currentColor" fillRule="evenodd" clipRule="evenodd">
-      <path d="M9 4a1.6 1.6 0 0 1 1.6-1.6h3A1.6 1.6 0 0 1 15.2 4v17.6H9V4Zm1.6-.4a.4.4 0 0 0-.4.4v16.4H14V4a.4.4 0 0 0-.4-.4h-3Z" />
-      <path d="M4 12a1.6 1.6 0 0 1 1.6-1.6h4v1.2h-4a.4.4 0 0 0-.4.4v8c0 .22.18.4.4.4h4v1.2h-4A1.6 1.6 0 0 1 4 20v-8ZM18.6 7.6h-4V6.4h4A1.6 1.6 0 0 1 20.2 8v12a1.6 1.6 0 0 1-1.6 1.6h-4v-1.2h4a.4.4 0 0 0 .4-.4V8a.4.4 0 0 0-.4-.4Z" />
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    data-seed-icon="true"
+    data-seed-icon-version="0.3.0-alpha.0"
+    {...props}
+  >
+    <g>
+      <g>
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M9 3.9999C9 3.11625 9.71634 2.3999 10.6 2.3999H13.6C14.4837 2.3999 15.2 3.11625 15.2 3.9999V21.5999H9V3.9999ZM10.6 3.5999C10.3791 3.5999 10.2 3.77899 10.2 3.9999V20.3999H14V3.9999C14 3.77899 13.8209 3.5999 13.6 3.5999H10.6Z"
+          fill="currentColor"
+        />
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M4 11.9999C4 11.1162 4.71634 10.3999 5.6 10.3999H9.6V11.5999H5.6C5.37909 11.5999 5.2 11.779 5.2 11.9999V19.9999C5.2 20.2208 5.37909 20.3999 5.6 20.3999H9.6V21.5999H5.6C4.71634 21.5999 4 20.8836 4 19.9999V11.9999Z"
+          fill="currentColor"
+        />
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M18.6 7.5999H14.6V6.3999H18.6C19.4837 6.3999 20.2 7.11625 20.2 7.9999V19.9999C20.2 20.8836 19.4837 21.5999 18.6 21.5999H14.6V20.3999H18.6C18.8209 20.3999 19 20.2208 19 19.9999V7.9999C19 7.77899 18.8209 7.5999 18.6 7.5999Z"
+          fill="currentColor"
+        />
+      </g>
     </g>
   </svg>
 );

@@ -1,13 +1,21 @@
-import * as React from 'react';
 import type { SVGProps } from 'react';
 const IconChattingSendThin = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props}>
-    <path
-      fill="currentColor"
-      fillRule="evenodd"
-      d="M2.082 2.727a.4.4 0 0 1 .565-.45l19.06 9.273a.5.5 0 0 1 0 .9l-19.06 9.272a.4.4 0 0 1-.565-.449L4.2 12 2.082 2.727ZM5.294 12.6l-1.67 7.313L19.889 12 3.623 4.088l1.67 7.312 9.6.392a.208.208 0 0 1 0 .416l-9.6.392Z"
-      clipRule="evenodd"
-    />
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    data-seed-icon="true"
+    data-seed-icon-version="0.3.0-alpha.0"
+    {...props}
+  >
+    <g>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M2.08216 2.72664C2.00738 2.39919 2.34507 2.13095 2.64711 2.27788L21.7074 11.5504C22.0824 11.7329 22.0824 12.2672 21.7074 12.4496L2.64711 21.7223C2.34507 21.8692 2.00738 21.6009 2.08217 21.2735L4.20017 12L2.08216 2.72664ZM5.29403 12.6L3.62389 19.9126L19.8885 12L3.62389 4.08754L5.29403 11.4L14.8936 11.7918C15.0052 11.7964 15.0934 11.8882 15.0934 12V12C15.0934 12.1118 15.0052 12.2036 14.8936 12.2082L5.29403 12.6Z"
+        fill="currentColor"
+      />
+    </g>
   </svg>
 );
 export default IconChattingSendThin;

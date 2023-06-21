@@ -17,41 +17,15 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install Icona CLI
-        run: npm install icona-cli@latest -g
-
-      - name: Generate SVGs
+      - name: Install Packages
         run: |
-          icona generate-svg
+          yarn install
+
+      - name: Generate Stuffs
+        run: |
+          yarn generate:icona
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "GitHub Action"
           git add .
-          git commit -m "[Icona] Generate SVG files"
-          git push
-
-      - name: Generate XMLs
-        run: |
-          icona generate-xml
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "GitHub Action"
-          git add .
-          git commit -m "[Icona] Generate XML files"
-          git push
-
-      - name: Generate PDFs
-        run: |
-          icona generate-pdf
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "GitHub Action"
-          git add .
-          git commit -m "[Icona] Generate PDF files"
-          git push
-
-      - name: Generate React Components
-        run: |
-          icona generate-react-component
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "GitHub Action"
-          git add .
-          git commit -m "[Icona] Generate React Components"
+          git commit -m "[Icona] Generate Files"
           git push

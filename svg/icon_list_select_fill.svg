@@ -1,6 +1,6 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g id="Weight=Fill">
-    <g id="vector">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-seed-icon="true" data-seed-icon-version="0.3.0-alpha.0">
+  <g>
+    <g>
       <path d="M4 4C3.44772 4 3 4.44772 3 5C3 5.55228 3.44772 6 4 6H18C18.5523 6 19 5.55228 19 5C19 4.44772 18.5523 4 18 4H4Z" fill="currentColor"/>
       <path d="M4 10C3.44772 10 3 10.4477 3 11C3 11.5523 3.44772 12 4 12H18C18.5523 12 19 11.5523 19 11C19 10.4477 18.5523 10 18 10H4Z" fill="currentColor"/>
       <path d="M3 17C3 16.4477 3.44772 16 4 16H10C10.5523 16 11 16.4477 11 17C11 17.5523 10.5523 18 10 18H4C3.44772 18 3 17.5523 3 17Z" fill="currentColor"/>
