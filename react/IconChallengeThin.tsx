@@ -5,7 +5,7 @@ const IconChallengeThin = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     data-seed-icon="true"
-    data-seed-icon-version="0.3.0-alpha.0"
+    data-seed-icon-version="0.3.0"
     {...props}
   >
     <g>
