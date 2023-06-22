@@ -1,6 +1,6 @@
 {
   "name": "@seed-design/icon",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "repository": "https://github.com/daangn/seed-icon.git",
   "author": "junghyeonsu <jung660317@naver.com>",
   "license": "MIT",
@@ -11,6 +11,8 @@
     "pdf",
     "lib"
   ],
+  "type": "module",
+  "main": "./lib/index.js",
   "exports": {
     ".": {
       "types": "./lib/index.d.ts",
@@ -21,7 +23,7 @@
   "scripts": {
     "prepack": "yarn build",
     "generate:icona": "node icona.mjs",
-    "generate:react-index": "node scripts/generate-react-index.js",
+    "generate:react-index": "node scripts/generate-react-index.cjs",
     "build": "yarn generate:react-index && yarn build:tsc && yarn build:babel",
     "build:tsc": "tsc --emitDeclarationOnly",
     "build:babel": "babel -d lib react -x \".ts,.tsx\""
