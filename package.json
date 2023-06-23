@@ -1,6 +1,6 @@
 {
   "name": "@seed-design/icon",
-  "version": "0.3.2",
+  "version": "0.3.4",
   "repository": "https://github.com/daangn/seed-icon.git",
   "author": "junghyeonsu <jung660317@naver.com>",
   "license": "MIT",
@@ -18,23 +18,23 @@
     ".": {
       "types": "./lib/index.d.ts",
       "import": "./lib/index.js",
-      "require": "./lib/index.js"
+      "require": "./lib/index.cjs"
+    },
+    "./*": {
+      "types": "./lib/*.d.ts",
+      "import": "./lib/*.js",
+      "require": "./lib/*.cjs"
     }
   },
   "scripts": {
     "prepack": "yarn build",
-    "generate:icona": "node icona.mjs",
+    "generate:icona": "node icona.js",
     "generate:react-index": "node scripts/generate-react-index.cjs",
-    "build": "yarn generate:react-index && yarn build:tsc && yarn build:babel",
+    "build": "yarn generate:react-index && yarn build:tsc && yarn build:js",
     "build:tsc": "tsc --emitDeclarationOnly",
-    "build:babel": "babel -d lib react -x \".ts,.tsx\""
+    "build:js": "node build.cjs"
   },
   "devDependencies": {
-    "@babel/cli": "^7.22.5",
-    "@babel/core": "^7.22.5",
-    "@babel/preset-modules": "^0.1.5",
-    "@babel/preset-react": "^7.22.5",
-    "@babel/preset-typescript": "^7.22.5",
     "@changesets/cli": "^2.26.1",
     "@icona/generator": "0.0.10-test.0",
     "@icona/types": "0.0.10-test.3",
@@ -42,7 +42,13 @@
     "@svgr/plugin-jsx": "^8.0.1",
     "@svgr/plugin-prettier": "^8.0.1",
     "@svgr/plugin-svgo": "^8.0.1",
-    "@types/react": "^18.2.12",
+    "@types/react": "^18.2.13",
+    "@types/react-dom": "^18.2.6",
+    "esbuild": "^0.18.6",
+    "glob": "^10.3.0",
+    "nanobundle": "^1.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "svgo": "^3.0.2",
     "typescript": "^5.1.3"
   }
