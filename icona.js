@@ -9,31 +9,32 @@ generate({
       svgoConfig: {
         js2svg: {
           indent: 2,
-          pretty: true
+          pretty: true,
         },
         plugins: [
           {
             name: "addAttributesToSVGElement",
             params: {
-              attributes: [{ "data-seed-icon": true }, { "data-seed-icon-version": seedIconsPkg.version }],
-            }
+              attributes: [
+                { "data-seed-icon": true },
+                { "data-seed-icon-version": seedIconsPkg.version },
+              ],
+            },
           },
           {
             name: "convertColors",
             params: {
-              currentColor: true
-            }
+              currentColor: true,
+            },
           },
           {
             name: "removeAttrs",
             params: {
-              attrs: [
-                "id",
-              ],
+              attrs: ["id"],
             },
-          }
-        ]
-      }
+          },
+        ],
+      },
     },
     drawable: {
       active: false,
@@ -42,15 +43,23 @@ generate({
       defaultColor: "@color/gray900",
     },
     pdf: {
-      active: false,
+      active: true,
       path: "pdf",
       pdfKitConfig: {
         size: [24, 24],
-        margin: 0
-      }
+        margin: 0,
+        layout: "landscape",
+      },
+      svgToPdfOptions: {
+        assumePt: true,
+        x: 0,
+        y: 0,
+        width: 24,
+        height: 24,
+      },
     },
     react: {
-      active: true,
+      active: false,
       path: "react",
       svgrConfig: {
         jsxRuntime: "classic",
@@ -63,35 +72,36 @@ generate({
           tabWidth: 2,
           useTabs: false,
           singleQuote: true,
-          semi: true
+          semi: true,
         },
         svgoConfig: {
           plugins: [
             {
               name: "addAttributesToSVGElement",
               params: {
-                attributes: [{ "data-seed-icon": true }, { "data-seed-icon-version": seedIconsPkg.version }],
-              }
+                attributes: [
+                  { "data-seed-icon": true },
+                  { "data-seed-icon-version": seedIconsPkg.version },
+                ],
+              },
             },
             {
               name: "convertColors",
               params: {
-                currentColor: true
+                currentColor: true,
               },
             },
             {
               name: "removeAttrs",
               params: {
-                attrs: [
-                  "id",
-                ],
+                attrs: ["id"],
               },
-            }
-          ]
+            },
+          ],
         },
         typescript: true,
-        dimensions: false
-      }
+        dimensions: false,
+      },
     },
-  }
+  },
 });
