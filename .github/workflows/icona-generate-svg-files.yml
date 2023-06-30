@@ -2,7 +2,7 @@
 on:
   push:
     branches:
-      - 'icona-update-**'
+      - 'icona-update-**' # only run workflow when icona-update-* branch is updated
     paths:
       - '.icona/icons.json' # only run workflow when icons.json is updated
 
