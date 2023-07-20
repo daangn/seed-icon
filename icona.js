@@ -4,7 +4,7 @@ import seedIconsPkg from "./package.json" assert { type: "json" };
 generate({
   config: {
     svg: {
-      active: false,
+      active: true,
       path: "svg",
       svgoConfig: {
         js2svg: {
@@ -37,7 +37,7 @@ generate({
       },
     },
     drawable: {
-      active: false,
+      active: true,
       path: "drawable",
       svg2vectordrawableConfig: {},
       defaultColor: "@color/gray900",
@@ -59,7 +59,7 @@ generate({
       },
     },
     react: {
-      active: false,
+      active: true,
       path: "react",
       svgrConfig: {
         jsxRuntime: "classic",
