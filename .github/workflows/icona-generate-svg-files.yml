@@ -25,7 +25,7 @@ jobs:
 
       - name: Bump Version
         run: |
-          yarn version patch
+          npm version patch
 
       - name: Generate Stuffs
         run: |
