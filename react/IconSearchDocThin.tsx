@@ -1,12 +1,12 @@
 import * as React from 'react';
 import type { SVGProps } from 'react';
-const IconSerachDocThin = (props: SVGProps<SVGSVGElement>) => (
+const IconSearchDocThin = (props: SVGProps<SVGSVGElement>) => (
   <svg
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     data-seed-icon="true"
-    data-seed-icon-version="0.3.3"
+    data-seed-icon-version="0.3.5"
     {...props}
   >
     <g>
@@ -44,11 +44,11 @@ const IconSerachDocThin = (props: SVGProps<SVGSVGElement>) => (
         <path
           fillRule="evenodd"
           clipRule="evenodd"
-          d="M19.8757 19.6757C20.11 19.4414 20.4899 19.4414 20.7242 19.6757L22.2242 21.1757C22.4585 21.4101 22.4585 21.7899 22.2242 22.0243C21.9899 22.2586 21.61 22.2586 21.3757 22.0243L19.8757 20.5243C19.6414 20.2899 19.6414 19.9101 19.8757 19.6757Z"
+          d="M19.8757 19.6757C20.11 19.4414 20.4899 19.4414 20.7242 19.6757L22.2242 21.1757C22.4585 21.41 22.4585 21.7899 22.2242 22.0243C21.9899 22.2586 21.61 22.2586 21.3757 22.0243L19.8757 20.5243C19.6414 20.2899 19.6414 19.91 19.8757 19.6757Z"
           fill="currentColor"
         />
       </g>
     </g>
   </svg>
 );
-export default IconSerachDocThin;
+export default IconSearchDocThin;

@@ -1,12 +1,12 @@
 import * as React from 'react';
 import type { SVGProps } from 'react';
-const IconSerachDocFill = (props: SVGProps<SVGSVGElement>) => (
+const IconSearchDocFill = (props: SVGProps<SVGSVGElement>) => (
   <svg
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     data-seed-icon="true"
-    data-seed-icon-version="0.3.3"
+    data-seed-icon-version="0.3.5"
     {...props}
   >
     <g>
@@ -51,4 +51,4 @@ const IconSerachDocFill = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-export default IconSerachDocFill;
+export default IconSearchDocFill;
