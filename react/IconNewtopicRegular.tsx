@@ -6,7 +6,7 @@ const IconNewtopicRegular = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     data-seed-icon="true"
-    data-seed-icon-version="0.3.3"
+    data-seed-icon-version="0.3.5"
     {...props}
   >
     <g>
