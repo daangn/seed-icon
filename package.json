@@ -35,7 +35,6 @@
     "build:js": "node build.cjs"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.26.1",
     "@icona/generator": "^0.0.13",
     "@icona/types": "0.0.12",
     "@icona/utils": "^0.0.12",

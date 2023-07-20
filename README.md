@@ -21,3 +21,12 @@ import { IconName1, IconName2 } from "@seed-design/icon";
 
 <IconName1 width={20} height={20} />;
 ```
+
+### Deploy
+
+- 피그마에서 Icona 이용해서 Deploy
+- PR 메인으로 머지하고 `npm publish`로 배포
+
+**주의사항**
+
+- major, minor 버전 업데이트 시, 범프 후 `yarn build` 후 `npm publish`로 배포
