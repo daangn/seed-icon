@@ -6,13 +6,13 @@ const IconGlobalFill = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     data-seed-icon="true"
-    data-seed-icon-version="0.3.3"
+    data-seed-icon-version="0.3.4"
     {...props}
   >
     <g>
       <g>
         <path
-          d="M9.13634 2.02979C5.06697 3.16555 1.95215 6.62224 1.5 10.9184H6.37319C6.52391 7.01729 7.57892 3.80751 9.13634 2.02979Z"
+          d="M9.13633 2.02979C5.06697 3.16555 1.95215 6.62224 1.5 10.9184H6.37319C6.52391 7.01728 7.57892 3.80751 9.13633 2.02979Z"
           fill="currentColor"
         />
         <path
@@ -24,7 +24,7 @@ const IconGlobalFill = (props: SVGProps<SVGSVGElement>) => (
           fill="currentColor"
         />
         <path
-          d="M1.5 13.0912C1.95215 17.338 5.01673 20.7946 9.13634 21.9304C7.57892 20.1527 6.57414 16.9429 6.37319 13.0912H1.5Z"
+          d="M1.5 13.0912C1.95215 17.338 5.01673 20.7946 9.13633 21.9304C7.57892 20.1527 6.57414 16.9429 6.37319 13.0912H1.5Z"
           fill="currentColor"
         />
         <path
