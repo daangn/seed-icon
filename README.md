@@ -30,3 +30,4 @@ import { IconName1, IconName2 } from "@seed-design/icon";
 **주의사항**
 
 - major, minor 버전 업데이트 시, 범프 후 `yarn build` 후 `npm publish`로 배포
+- (CI 코드가 patch 버전을 올리도록 되어있음)
