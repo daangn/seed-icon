@@ -35,7 +35,7 @@
     "build:js": "node build.cjs"
   },
   "devDependencies": {
-    "@icona/generator": "^0.0.13",
+    "@icona/generator": "^0.0.14",
     "@icona/types": "0.0.12",
     "@icona/utils": "^0.0.12",
     "@svgr/plugin-jsx": "^8.0.1",

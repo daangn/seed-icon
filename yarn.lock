@@ -562,9 +562,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@icona/generator@npm:^0.0.13":
-  version: 0.0.13
-  resolution: "@icona/generator@npm:0.0.13"
+"@icona/generator@npm:^0.0.14":
+  version: 0.0.14
+  resolution: "@icona/generator@npm:0.0.14"
   dependencies:
     "@icona/utils": ^0.0.13
     "@svgr/core": ^8.0.0
@@ -572,7 +572,7 @@ __metadata:
     svg-to-pdfkit: ^0.1.8
     svg2vectordrawable: ^2.9.1
     svgo: ^3.0.2
-  checksum: 233befbb5197092f53d89b4f201a0f2a78229531f7363115af40243b97892e27689d8294db3b91430d2974fca372979719a6a95113ab78cc5d274f639b767ccd
+  checksum: bcbd39e24e6288abff4f9716c07244daaeaefa5bde46d5418dd4a41c603985a07946e579fb5c972ca64d060683b628bc95fd2c33763e69a77cfc7448e0f44ff3
   languageName: node
   linkType: hard
 
@@ -675,7 +675,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@seed-design/icon@workspace:."
   dependencies:
-    "@icona/generator": ^0.0.13
+    "@icona/generator": ^0.0.14
     "@icona/types": 0.0.12
     "@icona/utils": ^0.0.12
     "@svgr/plugin-jsx": ^8.0.1

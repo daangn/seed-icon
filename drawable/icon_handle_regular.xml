@@ -4,15 +4,15 @@
     android:viewportWidth="24"
     android:viewportHeight="24">
     <path
-        android:fillColor="#FF212124"
+        android:fillColor="@color/gray900"
         android:fillType="evenOdd"
         android:pathData="M3.2 8c0-0.44 0.36-0.8 0.8-0.8h16c0.44 0 0.8 0.36 0.8 0.8 0 0.44-0.36 0.8-0.8 0.8H4C3.56 8.8 3.2 8.44 3.2 8Z"/>
     <path
-        android:fillColor="#FF212124"
+        android:fillColor="@color/gray900"
         android:fillType="evenOdd"
         android:pathData="M3.2 12c0-0.44 0.36-0.8 0.8-0.8h16c0.44 0 0.8 0.36 0.8 0.8 0 0.44-0.36 0.8-0.8 0.8H4c-0.44 0-0.8-0.36-0.8-0.8Z"/>
     <path
-        android:fillColor="#FF212124"
+        android:fillColor="@color/gray900"
         android:fillType="evenOdd"
         android:pathData="M3.2 16c0-0.44 0.36-0.8 0.8-0.8h16c0.44 0 0.8 0.36 0.8 0.8 0 0.44-0.36 0.8-0.8 0.8H4c-0.44 0-0.8-0.36-0.8-0.8Z"/>
 </vector>
