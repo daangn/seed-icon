@@ -2,20 +2,18 @@ const { build } = require("esbuild");
 const { globSync } = require("glob");
 const pkg = require("./package.json");
 
-const run = ({ entryPoints, pkg }) => {
-  const external = Object.keys({
-    ...pkg.dependencies,
-    ...pkg.peerDependencies,
-  });
+const run = ({ entryPoints }) => {
+  // const external = Object.keys({
+  //   ...pkg.dependencies,
+  //   ...pkg.peerDependencies,
+  // });
 
   const baseConfig = {
     entryPoints,
     outdir: "lib",
     target: "es2019",
-    bundle: false,
     sourcemap: true,
     minify: true,
-    external,
   };
 
   Promise.all([
