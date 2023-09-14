@@ -1,6 +1,6 @@
 {
   "name": "@seed-design/icon",
-  "version": "0.3.8",
+  "version": "0.3.9-canary.0",
   "repository": "https://github.com/daangn/seed-icon.git",
   "author": "junghyeonsu <jung660317@naver.com>",
   "license": "MIT",
@@ -19,11 +19,6 @@
       "types": "./lib/index.d.ts",
       "import": "./lib/index.js",
       "require": "./lib/index.cjs"
-    },
-    "./*": {
-      "types": "./lib/*.d.ts",
-      "import": "./lib/*.js",
-      "require": "./lib/*.cjs"
     }
   },
   "peerDependencies": {
@@ -35,9 +30,12 @@
     "generate:react-index": "node scripts/generate-react-index.cjs",
     "build": "yarn generate:react-index && yarn build:tsc && yarn build:js",
     "build:tsc": "tsc --emitDeclarationOnly",
-    "build:js": "node build.cjs"
+    "build:js": "node build.cjs",
+    "release": "yarn changeset publish",
+    "version": "changeset version main && yarn install --no-immutable"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.2",
     "@icona/generator": "^0.0.15",
     "@icona/types": "^0.0.13",
     "@icona/utils": "^0.0.13",
