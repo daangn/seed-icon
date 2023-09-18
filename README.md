@@ -31,3 +31,7 @@ import { IconName1, IconName2 } from "@seed-design/icon";
 
 - major, minor 버전 업데이트 시, 범프 후 `yarn build` 후 `npm publish`로 배포
 - (CI 코드가 patch 버전을 올리도록 되어있음)
+
+### Source of truth
+
+- [figma](https://www.figma.com/file/58VvezaS8z1FsIOr9KFHKW/Icon-%26-Graphic?type=design&node-id=17-54&mode=design&t=B1ayBi2xXki0VZft-4)
