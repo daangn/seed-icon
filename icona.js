@@ -68,6 +68,37 @@ generate({
           "@svgr/plugin-jsx",
           "@svgr/plugin-prettier",
         ],
+        template: (variables, { tpl }) => {
+          return tpl`
+            ${variables.imports};
+
+            interface Props {
+              size?: number | string;
+              className?: string;
+            }
+
+            const SVG = (${variables.props}) => (
+              ${variables.jsx}
+            );
+
+            const ${variables.componentName} = (
+              { size = 24, className }: Props,
+              ref: React.ForwardedRef<HTMLSpanElement>,
+            ) => {
+              return (
+                <span
+                  ref={ref}
+                  className={className}
+                  style={{ display: "inline-flex", width: size, height: size }}
+                >
+                  <SVG />
+                </span>
+              )
+            };
+            
+            export default React.forwardRef(${variables.componentName});
+          `;
+        },
         prettierConfig: {
           tabWidth: 2,
           useTabs: false,
@@ -101,6 +132,10 @@ generate({
         },
         typescript: true,
         dimensions: false,
+        svgProps: {
+          width: "100%",
+          height: "100%",
+        }
       },
     },
   },
