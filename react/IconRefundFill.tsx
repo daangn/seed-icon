@@ -2,11 +2,11 @@ import * as React from 'react';
 import type { SVGProps } from 'react';
 const IconRefundFill = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    viewBox="0 0 25 24"
+    viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     data-seed-icon="true"
-    data-seed-icon-version="0.3.8"
+    data-seed-icon-version="0.3.11"
     {...props}
   >
     <g>
