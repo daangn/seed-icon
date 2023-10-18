@@ -6,7 +6,7 @@
   "license": "MIT",
   "packageManager": "yarn@3.5.1",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "files": [
     "svg",
