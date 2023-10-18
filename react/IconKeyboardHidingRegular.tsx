@@ -6,7 +6,7 @@ const IconKeyboardHidingRegular = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     data-seed-icon="true"
-    data-seed-icon-version="0.3.11"
+    data-seed-icon-version="0.3.12"
     {...props}
   >
     <g clipPath="url(#clip0_7825_142)">
