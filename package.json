@@ -5,6 +5,9 @@
   "author": "junghyeonsu <jung660317@naver.com>",
   "license": "MIT",
   "packageManager": "yarn@3.5.1",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "files": [
     "svg",
     "drawable",
