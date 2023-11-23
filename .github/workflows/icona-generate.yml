@@ -6,11 +6,11 @@ on:
     paths:
       - '.icona/icons.json' # only run workflow when icons.json is updated
 
-name: Generate SVG files from icons.json
+name: Generate Asset files from icons.json
 
 jobs:
   deploy:
-    name: Generate SVG files from icons.json
+    name: Generate Asset files from icons.json
     runs-on: ubuntu-latest
 
     steps:
