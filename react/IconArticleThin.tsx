@@ -1,6 +1,10 @@
 import * as React from 'react';
 import type { SVGProps } from 'react';
-const IconArticleThin = (props: SVGProps<SVGSVGElement>) => (
+interface Props {
+  size: number | string;
+  className?: string;
+}
+const SVG = (props: SVGProps<SVGSVGElement>) => (
   <svg
     viewBox="0 0 24 24"
     fill="none"
@@ -39,4 +43,22 @@ const IconArticleThin = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-export default IconArticleThin;
+const IconArticleThin = (
+  { size, className }: Props,
+  ref: React.ForwardedRef<HTMLSpanElement>
+) => {
+  return (
+    <span
+      ref={ref}
+      className={className}
+      style={{
+        display: 'inline-flex',
+        width: size,
+        height: size,
+      }}
+    >
+      <SVG />
+    </span>
+  );
+};
+export default React.forwardRef(IconArticleThin);
