@@ -5,6 +5,7 @@ generate({
   config: {
     svg: {
       active: true,
+      genMode: "recreate",
       path: "svg",
       svgoConfig: {
         js2svg: {
@@ -16,7 +17,7 @@ generate({
             name: "addAttributesToSVGElement",
             params: {
               attributes: [
-                { "data-seed-icon": true },
+                { "data-seed-icon": "true" },
                 { "data-seed-icon-version": seedIconsPkg.version },
               ],
             },
@@ -38,12 +39,14 @@ generate({
     },
     drawable: {
       active: true,
+      genMode: "recreate",
       path: "drawable",
       svg2vectordrawableConfig: {},
       defaultColor: "@color/gray900",
     },
     pdf: {
       active: true,
+      genMode: "recreate",
       path: "pdf",
       pdfKitConfig: {
         size: [24, 24],
@@ -51,15 +54,16 @@ generate({
         layout: "landscape",
       },
       svgToPdfOptions: {
-        assumePt: true,
         x: 0,
         y: 0,
+        assumePt: true,
         width: 24,
         height: 24,
       },
     },
     react: {
       active: true,
+      genMode: "recreate",
       path: "react",
       svgrConfig: {
         jsxRuntime: "classic",
@@ -80,7 +84,7 @@ generate({
               name: "addAttributesToSVGElement",
               params: {
                 attributes: [
-                  { "data-seed-icon": true },
+                  { "data-seed-icon": "true" },
                   { "data-seed-icon-version": seedIconsPkg.version },
                 ],
               },
@@ -103,5 +107,10 @@ generate({
         dimensions: false,
       },
     },
+    png: {
+      active: true,
+      genMode: "recreate",
+      path: "png",
+    }
   },
 });
