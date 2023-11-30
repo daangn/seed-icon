@@ -40,7 +40,7 @@
     "build:tsc": "tsc --emitDeclarationOnly",
     "build:js": "node build.cjs",
     "release": "yarn changeset publish",
-    "version": "changeset version && yarn install --no-immutable"
+    "cs-version": "changeset version && yarn install --no-immutable"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
