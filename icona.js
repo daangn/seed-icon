@@ -66,6 +66,36 @@ generate({
       genMode: "recreate",
       path: "react",
       svgrConfig: {
+        template: (variables, { tpl }) => {
+          return tpl`
+            ${variables.imports};
+            interface Props {
+              size: number | string;
+              className?: string;
+            }
+
+            const SVG = (${variables.props}) => (
+              ${variables.jsx}
+            );
+
+            const ${variables.componentName} = (
+              { size = 24, className }: Props,
+              ref: React.ForwardedRef<HTMLSpanElement>,
+            ) => {
+              return (
+                <span
+                  ref={ref}
+                  className={className}
+                  style={{ display: "inline-flex", width: size, height: size }}
+                >
+                  <SVG />
+                </span>
+              )
+            };
+            
+            export default React.forwardRef(${variables.componentName});
+          `;
+        },
         jsxRuntime: "classic",
         plugins: [
           "@svgr/plugin-svgo",

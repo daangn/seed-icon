@@ -1,6 +1,10 @@
 import * as React from 'react';
 import type { SVGProps } from 'react';
-const IconGpsEnable2Fill = (props: SVGProps<SVGSVGElement>) => (
+interface Props {
+  size?: number | string;
+  className?: string;
+}
+const SVG = (props: SVGProps<SVGSVGElement>) => (
   <svg
     viewBox="0 0 24 24"
     fill="none"
@@ -33,4 +37,22 @@ const IconGpsEnable2Fill = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-export default IconGpsEnable2Fill;
+const IconGpsEnable2Fill = (
+  { size = 24, className }: Props,
+  ref: React.ForwardedRef<HTMLSpanElement>
+) => {
+  return (
+    <span
+      ref={ref}
+      className={className}
+      style={{
+        display: 'inline-flex',
+        width: size,
+        height: size,
+      }}
+    >
+      <SVG />
+    </span>
+  );
+};
+export default React.forwardRef(IconGpsEnable2Fill);
