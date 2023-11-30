@@ -1,7 +1,7 @@
 import * as React from 'react';
 import type { SVGProps } from 'react';
 interface Props {
-  size?: number | string;
+  size: number | string;
   className?: string;
 }
 const SVG = (props: SVGProps<SVGSVGElement>) => (
@@ -27,7 +27,7 @@ const SVG = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 const IconCouponThin = (
-  { size = 24, className }: Props,
+  { size, className }: Props,
   ref: React.ForwardedRef<HTMLSpanElement>
 ) => {
   return (

@@ -79,7 +79,7 @@ generate({
             );
 
             const ${variables.componentName} = (
-              { size = 24, className }: Props,
+              { size, className }: Props,
               ref: React.ForwardedRef<HTMLSpanElement>,
             ) => {
               return (
