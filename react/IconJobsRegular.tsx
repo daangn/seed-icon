@@ -6,7 +6,7 @@ const IconJobsRegular = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     data-seed-icon="true"
-    data-seed-icon-version="0.3.14"
+    data-seed-icon-version="0.3.15"
     {...props}
   >
     <g clipPath="url(#clip0_24339_1249)">
