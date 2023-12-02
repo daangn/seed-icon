@@ -24,7 +24,7 @@ import { IconName1, IconName2 } from "@seed-design/icon";
 <IconName1 width={20} height={20} />;
 ```
 
-- `v0.4.x`
+- `v0.4.x` ~
 
 ```jsx
 import { IconName1, IconName2 } from "@seed-design/icon";
