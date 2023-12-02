@@ -29,6 +29,7 @@ import { IconName1, IconName2 } from "@seed-design/icon";
 ```jsx
 import { IconName1, IconName2 } from "@seed-design/icon";
 
+// SVG props 사용 가능
 <IconName1 size={20} />;
 ```
 
