@@ -69,31 +69,15 @@ generate({
         template: (variables, { tpl }) => {
           return tpl`
             ${variables.imports};
-            interface Props {
-              size: number | string;
-              className?: string;
-            }
 
-            const SVG = (${variables.props}) => (
+            const ${variables.componentName} = (
+              { size = 24, ...props }: SVGProps<SVGSVGElement> & { size?: number | string },
+              ref: Ref<SVGSVGElement>
+            ) => (
               ${variables.jsx}
             );
 
-            const ${variables.componentName} = (
-              { size, className }: Props,
-              ref: React.ForwardedRef<HTMLSpanElement>,
-            ) => {
-              return (
-                <span
-                  ref={ref}
-                  className={className}
-                  style={{ display: "inline-flex", width: size, height: size }}
-                >
-                  <SVG />
-                </span>
-              )
-            };
-            
-            export default React.forwardRef(${variables.componentName});
+            ${variables.exports}
           `;
         },
         jsxRuntime: "classic",
@@ -135,12 +119,17 @@ generate({
         },
         typescript: true,
         dimensions: false,
+        ref: true,
+        svgProps: {
+          width: "{size}",
+          height: "{size}",
+        },
       },
     },
     png: {
       active: true,
       genMode: "recreate",
       path: "png",
-    }
+    },
   },
 });

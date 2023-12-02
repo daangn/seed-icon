@@ -1,16 +1,24 @@
 import * as React from 'react';
 import type { SVGProps } from 'react';
-interface Props {
-  size: number | string;
-  className?: string;
-}
-const SVG = (props: SVGProps<SVGSVGElement>) => (
+import { Ref, forwardRef } from 'react';
+const IconKeyboardHidingRegular = (
+  {
+    size = 24,
+    ...props
+  }: SVGProps<SVGSVGElement> & {
+    size?: number | string,
+  },
+  ref: Ref<SVGSVGElement>
+) => (
   <svg
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     data-seed-icon="true"
-    data-seed-icon-version="0.3.15"
+    data-seed-icon-version="0.5.0"
+    width={size}
+    height={size}
+    ref={ref}
     {...props}
   >
     <g clipPath="url(#clip0_7825_142)">
@@ -54,22 +62,5 @@ const SVG = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-const IconKeyboardHidingRegular = (
-  { size, className }: Props,
-  ref: React.ForwardedRef<HTMLSpanElement>
-) => {
-  return (
-    <span
-      ref={ref}
-      className={className}
-      style={{
-        display: 'inline-flex',
-        width: size,
-        height: size,
-      }}
-    >
-      <SVG />
-    </span>
-  );
-};
-export default React.forwardRef(IconKeyboardHidingRegular);
+const ForwardRef = forwardRef(IconKeyboardHidingRegular);
+export default ForwardRef;

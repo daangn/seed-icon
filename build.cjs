@@ -13,7 +13,6 @@ const run = ({ entryPoints }) => {
     outdir: "lib",
     target: "es2019",
     sourcemap: true,
-    minify: true,
   };
 
   Promise.all([
