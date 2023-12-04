@@ -15,20 +15,18 @@ const IconArrowDropUpFill = (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     data-seed-icon="true"
-    data-seed-icon-version="0.5.0"
+    data-seed-icon-version="0.5.1"
     width={size}
     height={size}
     ref={ref}
     {...props}
   >
-    <g>
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M12 8.52002L6.20005 15.48L17.8 15.48L12 8.52002Z"
-        fill="currentColor"
-      />
-    </g>
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M12 8.52002L6.20005 15.48L17.8 15.48L12 8.52002Z"
+      fill="currentColor"
+    />
   </svg>
 );
 const ForwardRef = forwardRef(IconArrowDropUpFill);
