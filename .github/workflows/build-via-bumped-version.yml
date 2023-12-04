@@ -1,0 +1,33 @@
+on:
+  push:
+    branches:
+      - 'changeset-release/main'
+
+name: Build via bumped version
+
+jobs:
+  build:
+    name: Build via bumped version
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install Packages
+        run: |
+          yarn install
+
+      - name: Git Config
+        run: |
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "GitHub Action"
+
+      - name: Generate Stuffs
+        run: |
+          yarn generate:icona
+          git add .
+          git commit -m "Generate Files via Bumped Version"
+          git push
