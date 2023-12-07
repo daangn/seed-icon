@@ -807,35 +807,37 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@icona/generator@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@icona/generator@npm:0.3.0"
+"@icona/generator@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@icona/generator@npm:0.4.0"
   dependencies:
-    "@icona/types": ^0.3.0
-    "@icona/utils": ^0.3.0
+    "@icona/types": ^0.4.0
+    "@icona/utils": ^0.4.0
     "@svgr/core": ^8.0.0
+    "@types/cli-progress": ^3.11.5
+    cli-progress: ^3.12.0
     pdfkit: ^0.13.0
     svg-to-pdfkit: ^0.1.8
     svg2vectordrawable: ^2.9.1
     svgo: ^3.0.2
-  checksum: b114b87fd90578a50d1fc67045171498078c308df21356b453cf82bd4311a408be7fdde4edcac9ff26fccaeed28bc768622ea0098429979e08d694e1b46f8e57
+  checksum: fda83b6bbea0be9b03a0516f285f9fbbe73cf14128055c178f2f0d2ce52906e2376e6880c7c75cd808658f1ed25ad6a8720086bb98c38bc388afb65e80d4f4a2
   languageName: node
   linkType: hard
 
-"@icona/types@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@icona/types@npm:0.3.0"
-  checksum: 8a640c9940b5603611bf8d0cd7929e7b77f235c5492f295ebc8276d9e2066ba34522c022a53d43b9f69fcf34ed35bdeb6af150cc26c8b06401bb3682d1afad89
+"@icona/types@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@icona/types@npm:0.4.0"
+  checksum: ab05dc0be7aa2ffb5a2273ec4ba748a78fe322f94fe99f25441b04999839a0bf6930ec76abd6e74d90ea40d7c9b1d25a29c5f47b0c5c11c1d1868019b3068620
   languageName: node
   linkType: hard
 
-"@icona/utils@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@icona/utils@npm:0.3.0"
+"@icona/utils@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@icona/utils@npm:0.4.0"
   dependencies:
-    "@icona/types": ^0.3.0
+    "@icona/types": ^0.4.0
     findup-sync: ^5.0.0
-  checksum: 16c67be7a7c7dbaa1c18b8d78cdf7542377f18dcb0b5675bd798b8b996b3542112baec274c5a90be67d5fd94bde2d86380b497fbcaa736b35aa8dbb4c8488ad9
+  checksum: 8b70c3c9b73936918abf0075c2d1f9e203fb275ee30b74703444e68b1a9155bffb97d957501847657ddbf932de453415c974942b6dbfea4fa55d957a209db9f3
   languageName: node
   linkType: hard
 
@@ -967,9 +969,9 @@ __metadata:
   resolution: "@seed-design/icon@workspace:."
   dependencies:
     "@changesets/cli": ^2.26.2
-    "@icona/generator": ^0.3.0
-    "@icona/types": ^0.3.0
-    "@icona/utils": ^0.3.0
+    "@icona/generator": ^0.4.0
+    "@icona/types": ^0.4.0
+    "@icona/utils": ^0.4.0
     "@svgr/plugin-jsx": ^8.0.1
     "@svgr/plugin-prettier": ^8.0.1
     "@svgr/plugin-svgo": ^8.0.1
@@ -1155,6 +1157,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/cli-progress@npm:^3.11.5":
+  version: 3.11.5
+  resolution: "@types/cli-progress@npm:3.11.5"
+  dependencies:
+    "@types/node": "*"
+  checksum: 571fb3b11646415ac49c90e8003b82f3ac58d75fde5952caf40b4a079517b6e25e79ab0a7455d0ab0398d0b2de062646dba075d3d1f8d147eed2ab4d41abbf64
+  languageName: node
+  linkType: hard
+
 "@types/is-ci@npm:^3.0.0":
   version: 3.0.0
   resolution: "@types/is-ci@npm:3.0.0"
@@ -1168,6 +1179,15 @@ __metadata:
   version: 1.2.2
   resolution: "@types/minimist@npm:1.2.2"
   checksum: b8da83c66eb4aac0440e64674b19564d9d86c80ae273144db9681e5eeff66f238ade9515f5006ffbfa955ceff8b89ad2bd8ec577d7caee74ba101431fb07045d
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:*":
+  version: 20.10.4
+  resolution: "@types/node@npm:20.10.4"
+  dependencies:
+    undici-types: ~5.26.4
+  checksum: 054b296417e771ab524bea63cf3289559c6bdf290d45428f7cc68e9b00030ff7a0ece47b8c99a26b4f47a443919813bcf42beadff2f0bea7d8125fa541d92eb0
   languageName: node
   linkType: hard
 
@@ -1547,6 +1567,15 @@ __metadata:
   version: 3.8.0
   resolution: "ci-info@npm:3.8.0"
   checksum: d0a4d3160497cae54294974a7246202244fff031b0a6ea20dd57b10ec510aa17399c41a1b0982142c105f3255aff2173e5c0dd7302ee1b2f28ba3debda375098
+  languageName: node
+  linkType: hard
+
+"cli-progress@npm:^3.12.0":
+  version: 3.12.0
+  resolution: "cli-progress@npm:3.12.0"
+  dependencies:
+    string-width: ^4.2.3
+  checksum: e8390dc3cdf3c72ecfda0a1e8997bfed63a0d837f97366bbce0ca2ff1b452da386caed007b389f0fe972625037b6c8e7ab087c69d6184cc4dfc8595c4c1d3e6e
   languageName: node
   linkType: hard
 
@@ -4802,6 +4831,13 @@ __metadata:
     has-symbols: ^1.0.3
     which-boxed-primitive: ^1.0.2
   checksum: b7a1cf5862b5e4b5deb091672ffa579aa274f648410009c81cca63fed3b62b610c4f3b773f912ce545bb4e31edc3138975b5bc777fc6e4817dca51affb6380e9
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~5.26.4":
+  version: 5.26.5
+  resolution: "undici-types@npm:5.26.5"
+  checksum: 3192ef6f3fd5df652f2dc1cd782b49d6ff14dc98e5dced492aa8a8c65425227da5da6aafe22523c67f035a272c599bb89cfe803c1db6311e44bed3042fc25487
   languageName: node
   linkType: hard
 

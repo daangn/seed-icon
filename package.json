@@ -44,9 +44,9 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
-    "@icona/generator": "^0.3.0",
-    "@icona/types": "^0.3.0",
-    "@icona/utils": "^0.3.0",
+    "@icona/generator": "^0.4.0",
+    "@icona/types": "^0.4.0",
+    "@icona/utils": "^0.4.0",
     "@svgr/plugin-jsx": "^8.0.1",
     "@svgr/plugin-prettier": "^8.0.1",
     "@svgr/plugin-svgo": "^8.0.1",
