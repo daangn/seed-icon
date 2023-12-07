@@ -807,12 +807,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@icona/generator@npm:^0.4.0":
-  version: 0.4.0
-  resolution: "@icona/generator@npm:0.4.0"
+"@icona/generator@npm:^0.4.1":
+  version: 0.4.1
+  resolution: "@icona/generator@npm:0.4.1"
   dependencies:
-    "@icona/types": ^0.4.0
-    "@icona/utils": ^0.4.0
+    "@icona/types": ^0.4.1
+    "@icona/utils": ^0.4.1
     "@svgr/core": ^8.0.0
     "@types/cli-progress": ^3.11.5
     cli-progress: ^3.12.0
@@ -820,24 +820,24 @@ __metadata:
     svg-to-pdfkit: ^0.1.8
     svg2vectordrawable: ^2.9.1
     svgo: ^3.0.2
-  checksum: fda83b6bbea0be9b03a0516f285f9fbbe73cf14128055c178f2f0d2ce52906e2376e6880c7c75cd808658f1ed25ad6a8720086bb98c38bc388afb65e80d4f4a2
+  checksum: 011142ac798d36fa44e40793f550e476de56dbe99e31c31e21de05c7766a5c81574a631b945df07cda8a4982f8ea16f4f342594c1ea95b60290f6165333b54c6
   languageName: node
   linkType: hard
 
-"@icona/types@npm:^0.4.0":
-  version: 0.4.0
-  resolution: "@icona/types@npm:0.4.0"
-  checksum: ab05dc0be7aa2ffb5a2273ec4ba748a78fe322f94fe99f25441b04999839a0bf6930ec76abd6e74d90ea40d7c9b1d25a29c5f47b0c5c11c1d1868019b3068620
+"@icona/types@npm:^0.4.1":
+  version: 0.4.1
+  resolution: "@icona/types@npm:0.4.1"
+  checksum: 12ec5125b17d73d31a75b56b738cf732fd9b6ab365eee5bbe46dfa229bca5a5cf44cbccd9a6cdef666446b5000cd6b8cdce589a5e4e40d883b4da593867db904
   languageName: node
   linkType: hard
 
-"@icona/utils@npm:^0.4.0":
-  version: 0.4.0
-  resolution: "@icona/utils@npm:0.4.0"
+"@icona/utils@npm:^0.4.1":
+  version: 0.4.1
+  resolution: "@icona/utils@npm:0.4.1"
   dependencies:
-    "@icona/types": ^0.4.0
+    "@icona/types": ^0.4.1
     findup-sync: ^5.0.0
-  checksum: 8b70c3c9b73936918abf0075c2d1f9e203fb275ee30b74703444e68b1a9155bffb97d957501847657ddbf932de453415c974942b6dbfea4fa55d957a209db9f3
+  checksum: 48273a96109f096b14ee07bd38bfe94f1ded30501caeb20ff675642da89c91d75670e963939c05dd996f697b9c0c17d0ef25be75ddadd3cacd7d53abee82bee5
   languageName: node
   linkType: hard
 
@@ -969,9 +969,9 @@ __metadata:
   resolution: "@seed-design/icon@workspace:."
   dependencies:
     "@changesets/cli": ^2.26.2
-    "@icona/generator": ^0.4.0
-    "@icona/types": ^0.4.0
-    "@icona/utils": ^0.4.0
+    "@icona/generator": ^0.4.1
+    "@icona/types": ^0.4.1
+    "@icona/utils": ^0.4.1
     "@svgr/plugin-jsx": ^8.0.1
     "@svgr/plugin-prettier": ^8.0.1
     "@svgr/plugin-svgo": ^8.0.1
