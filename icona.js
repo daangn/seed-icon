@@ -33,6 +33,19 @@ generate({
             params: {
               attrs: ["id"],
             },
+            fn: () => {
+              return {
+                element: {
+                  enter: node => {
+                    // NOTE: Not working
+                    // if (node.name === 'mask') return;
+
+                    // NOTE: Working
+                    if (node.name !== 'mask') delete node.attributes.id;
+                  }
+                }
+              }
+            }
           },
         ],
       },
@@ -45,7 +58,7 @@ generate({
       defaultColor: "@color/gray900",
     },
     pdf: {
-      active: true,
+      active: false,
       genMode: "recreate",
       path: "pdf",
       pdfKitConfig: {
@@ -114,6 +127,19 @@ generate({
               params: {
                 attrs: ["id"],
               },
+              fn: () => {
+                return {
+                  element: {
+                    enter: node => {
+                      // NOTE: Not working
+                      // if (node.name === 'mask') return;
+  
+                      // NOTE: Working
+                      if (node.name !== 'mask') delete node.attributes.id;
+                    }
+                  }
+                }
+              }
             },
           ],
         },

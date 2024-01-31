@@ -15,7 +15,7 @@ const IconPaymentRegular = (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     data-seed-icon="true"
-    data-seed-icon-version="0.5.3"
+    data-seed-icon-version="0.5.4"
     width={size}
     height={size}
     ref={ref}
@@ -23,7 +23,7 @@ const IconPaymentRegular = (
   >
     <g>
       <g>
-        <mask fill="currentColor">
+        <mask id="path-1-inside-1_12571_4011" fill="currentColor">
           <path
             fillRule="evenodd"
             clipRule="evenodd"
