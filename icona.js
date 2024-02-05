@@ -58,7 +58,7 @@ generate({
       defaultColor: "@color/gray900",
     },
     pdf: {
-      active: false,
+      active: true,
       genMode: "recreate",
       path: "pdf",
       pdfKitConfig: {
