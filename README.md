@@ -46,3 +46,10 @@ import { IconName1, IconName2 } from "@seed-design/icon";
 ### Source of truth
 
 - [figma](https://www.figma.com/file/58VvezaS8z1FsIOr9KFHKW/Icon-%26-Graphic?type=design&node-id=17-54&mode=design&t=B1ayBi2xXki0VZft-4)
+
+## Deploy Flow
+
+- figma에서 Icona로 파일 추출
+- 올라온 PR 확인 후 `yarn changeset` 실행
+- PR merge
+- 올라오는 `Version Package` PR 확인 후 merge
