@@ -133,7 +133,7 @@ generate({
                     enter: node => {
                       // NOTE: Not working
                       // if (node.name === 'mask') return;
-  
+
                       // NOTE: Working
                       if (node.name !== 'mask') delete node.attributes.id;
                     }
@@ -157,5 +157,14 @@ generate({
       genMode: "recreate",
       path: "png",
     },
+    font: {
+      active: true,
+      genMode: "recreate",
+      svgToFontOptions: {
+        src: "svg",
+        dist: "font",
+        fontName: "seed-icon",
+      }
+    }
   },
 });
