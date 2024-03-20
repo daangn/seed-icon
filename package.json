@@ -8,6 +8,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "sideEffects": false,
   "files": [
     "svg",
     "drawable",
@@ -15,8 +16,8 @@
     "lib"
   ],
   "type": "module",
-  "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
+  "main": "./lib/index.cjs",
+  "module": "./lib/index.js",
   "exports": {
     ".": {
       "types": "./lib/index.d.ts",
@@ -26,7 +27,12 @@
     "./*": {
       "types": "./lib/*.d.ts",
       "import": "./lib/*.js",
-      "require": "./lib/*.cjs"
+      "require": "./lib/index.cjs"
+    },
+    "./lib/*": {
+      "types": "./lib/*.d.ts",
+      "import": "./lib/*.js",
+      "require": "./lib/index.cjs"
     }
   },
   "peerDependencies": {
