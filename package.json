@@ -16,7 +16,7 @@
     "lib"
   ],
   "type": "module",
-  "main": "./lib/index.cjs",
+  "main": "./lib/index.js",
   "module": "./lib/index.js",
   "exports": {
     ".": {
