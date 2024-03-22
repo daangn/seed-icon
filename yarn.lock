@@ -814,38 +814,39 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@icona/generator@npm:^0.5.0":
-  version: 0.5.0
-  resolution: "@icona/generator@npm:0.5.0"
+"@icona/generator@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "@icona/generator@npm:0.6.0"
   dependencies:
-    "@icona/types": ^0.5.0
-    "@icona/utils": ^0.5.0
+    "@icona/types": ^0.6.0
+    "@icona/utils": ^0.6.0
     "@svgr/core": ^8.0.0
     "@types/cli-progress": ^3.11.5
     cli-progress: ^3.12.0
+    opentype.js: ^1.3.4
     pdfkit: ^0.13.0
     svg-to-pdfkit: ^0.1.8
     svg2vectordrawable: ^2.9.1
     svgo: ^3.0.2
     svgtofont: ^4.2.0
-  checksum: 1432eec10d3454b1ebf62d4ade7133383f2fec83220ef63fa21bdcdb1eec3eff72fc94adcce519a027ccebf35ff318c3a6d4179579f5892c79c1c5ca52ed67c3
+  checksum: 975311ce6f0c3f0a6d91da1e5b930dc5d69953641c0d138dd4000d617303bc0c5414c94ff231668ee722a219e4909d24f552833173425f7936d9d2bfeaa4eb35
   languageName: node
   linkType: hard
 
-"@icona/types@npm:^0.5.0":
-  version: 0.5.0
-  resolution: "@icona/types@npm:0.5.0"
-  checksum: 727dc689787001db4540406416bbd489e871a816d1cb536178aef4d45b18bd8e585e01b8f10d03f29235737c91636645004ce8fb5636028a0d55b00f6746f3ed
+"@icona/types@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "@icona/types@npm:0.6.0"
+  checksum: 4144a91caf47696e527a87b65f1b64a20fc63850c7a746c09abb95bfd31ac69af73ec413d2791beaf55c4e6ca58fcdc889994f18105de9e17c381eee80e74362
   languageName: node
   linkType: hard
 
-"@icona/utils@npm:^0.5.0":
-  version: 0.5.0
-  resolution: "@icona/utils@npm:0.5.0"
+"@icona/utils@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "@icona/utils@npm:0.6.0"
   dependencies:
-    "@icona/types": ^0.5.0
+    "@icona/types": ^0.6.0
     findup-sync: ^5.0.0
-  checksum: aa7d3d67c22438c33d24bff010d38751a4bf48ee9534a80ce86f5e7821963e945e57f6643023aeff0058993b70777ca2cab22966120a4359360487ddf8ef68da
+  checksum: a5f50df7c0bc0908ad3832b11f134deb203b5160ad3a2bf93cb20346a157619e99d30aeead6f3bedaa588194bf556073f7bf3c69dcfc4663458ecf25c6de500e
   languageName: node
   linkType: hard
 
@@ -1019,9 +1020,9 @@ __metadata:
   resolution: "@seed-design/icon@workspace:."
   dependencies:
     "@changesets/cli": ^2.26.2
-    "@icona/generator": ^0.5.0
-    "@icona/types": ^0.5.0
-    "@icona/utils": ^0.5.0
+    "@icona/generator": ^0.6.0
+    "@icona/types": ^0.6.0
+    "@icona/utils": ^0.6.0
     "@svgr/plugin-jsx": ^8.0.1
     "@svgr/plugin-prettier": ^8.0.1
     "@svgr/plugin-svgo": ^8.0.1
@@ -5365,6 +5366,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"opentype.js@npm:^1.3.4":
+  version: 1.3.4
+  resolution: "opentype.js@npm:1.3.4"
+  dependencies:
+    string.prototype.codepointat: ^0.2.1
+    tiny-inflate: ^1.0.3
+  bin:
+    ot: bin/ot
+  checksum: 365af0f9a8bd87b772c794502a9e53a6d286faf2bafda51f3016acab21bd6202a0d6a1260d7b71f1d6ad8076ccedfe84f76bd6aabb14704ce42ac9a9f96bae21
+  languageName: node
+  linkType: hard
+
 "os-tmpdir@npm:~1.0.2":
   version: 1.0.2
   resolution: "os-tmpdir@npm:1.0.2"
@@ -6555,6 +6568,13 @@ __metadata:
     emoji-regex: ^9.2.2
     strip-ansi: ^7.0.1
   checksum: 7369deaa29f21dda9a438686154b62c2c5f661f8dda60449088f9f980196f7908fc39fdd1803e3e01541970287cf5deae336798337e9319a7055af89dafa7193
+  languageName: node
+  linkType: hard
+
+"string.prototype.codepointat@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "string.prototype.codepointat@npm:0.2.1"
+  checksum: bafa15844d7ea5bed24a01fa8954327c0c49226cefe68ab70573f1338f6a4680587db962724924f2cceb91abe408e11bd38c80095f25ee080f136a6c9d300f00
   languageName: node
   linkType: hard
 

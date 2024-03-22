@@ -165,6 +165,15 @@ generate({
         dist: "font",
         fontName: "seed-icon",
       }
-    }
+    },
+    flutter: {
+      active: true,
+      genMode: "recreate",
+      path: "flutter",
+      ttfPath: "font/seed-icon.ttf", // Path to the TTF file
+
+      fileName: "SeedIcons", // Name of the generated class and file
+      fontFamily: "SeedIcon",
+    },
   },
 });
