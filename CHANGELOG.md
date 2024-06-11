@@ -1,5 +1,11 @@
 # @seed-design/icon
 
+## 0.6.2
+
+### Patch Changes
+
+- 8586312b: feat: add index file
+
 ## 0.6.1
 
 ### Patch Changes
