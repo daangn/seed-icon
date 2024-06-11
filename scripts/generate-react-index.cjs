@@ -11,9 +11,9 @@ console.log("Generating index.ts file...");
 const indexFile = components
   .map((component) => {
     const componentName = component.split(".")[0];
-    return `export { default as ${componentName} } from "./${componentName}.js";`;
+    return `export { default as ${componentName} } from "./${componentName}";`;
   })
-  .join("\n");
+  .join("\n") + "\n";
 
 fs.writeFileSync(path.join(componentsDir, "index.ts"), indexFile);
 
