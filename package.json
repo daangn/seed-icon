@@ -4,7 +4,7 @@
   "repository": "https://github.com/daangn/seed-icon.git",
   "author": "junghyeonsu <jung660317@naver.com>",
   "license": "MIT",
-  "packageManager": "yarn@3.5.1",
+  "packageManager": "yarn@4.3.1",
   "publishConfig": {
     "access": "public"
   },
@@ -14,6 +14,9 @@
     "drawable",
     "pdf",
     "lib"
+  ],
+  "workspaces": [
+    "packages/*"
   ],
   "type": "module",
   "main": "./lib/index.js",
