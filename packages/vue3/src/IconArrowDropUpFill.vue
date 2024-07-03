@@ -1,0 +1,30 @@
+/* eslint-disable */ // @ts-nocheck @ts-ignore
+<template>
+  <svg :width="size" :height="size" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Weight=Fill">
+<path id="vector" fill-rule="evenodd" clip-rule="evenodd" d="M12 8.52002L6.20005 15.48L17.8 15.48L12 8.52002Z" fill="#212124"/>
+</g>
+</svg>
+</template>
+
+<script lang="ts">
+import { defineComponent, ref, type PropType } from 'vue';
+
+export default defineComponent({
+  name: 'IconArrowDropUpFill',
+  props: {
+    size: {
+      type: [Number, String] as PropType<number | string>,
+      default: 24,
+    },
+  },
+  setup(props) {
+    const svg = ref<SVGSVGElement | null>(null);
+
+    return {
+      svg,
+      size: props.size,
+    };
+  },
+});
+</script>
