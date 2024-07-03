@@ -1395,9 +1395,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@seed-design/icon-asset@workspace:.":
+"@seed-design/icon@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@seed-design/icon-asset@workspace:."
+  resolution: "@seed-design/icon@workspace:."
   dependencies:
     "@changesets/cli": "npm:^2.26.2"
     "@icona/generator": "npm:^0.7.0"

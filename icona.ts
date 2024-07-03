@@ -81,7 +81,7 @@ const reactConfig: ReactConfig = {
   genMode: "recreate",
   path: "packages/react/src",
   svgrConfig: {
-    template: (variables, { tpl }) => {
+    template: (variables: any, { tpl }: { tpl: any }) => {
       return tpl`
         ${variables.imports};
 
