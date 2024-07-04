@@ -1,6 +1,6 @@
 {
   "name": "@seed-design/assets",
-  "version": "0.6.2",
+  "version": "0.7.0",
   "packageManager": "yarn@4.3.1",
   "sideEffects": false,
   "files": [
