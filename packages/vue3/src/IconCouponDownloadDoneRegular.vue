@@ -1,6 +1,6 @@
 <!-- eslint-disable --> <!-- @ts-nocheck @ts-ignore -->
 <template>
-  <svg :width="size" :height="size" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg data-seed-icon="true" data-seed-icon-version="0.7.1" :width="size" :height="size" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Weight=Regular">
 <g id="vector">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.19995 19.4001C3.19995 18.9583 3.55812 18.6001 3.99995 18.6001H20C20.4418 18.6001 20.7999 18.9583 20.7999 19.4001C20.7999 19.8419 20.4418 20.2001 20 20.2001H3.99995C3.55812 20.2001 3.19995 19.8419 3.19995 19.4001Z" fill="#212124"/>
