@@ -1,4 +1,4 @@
-/* eslint-disable */ // @ts-nocheck @ts-ignore
+<!-- eslint-disable --> <!-- @ts-nocheck @ts-ignore -->
 <template>
   <svg :width="size" :height="size" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Weight=Regular" clip-path="url(#clip0_15552_3476)">

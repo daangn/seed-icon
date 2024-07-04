@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
-    "@icona/generator": "^0.7.0",
+    "@icona/generator": "^0.7.1",
     "@svgr/plugin-jsx": "^8.0.1",
     "@svgr/plugin-prettier": "^8.0.1",
     "@svgr/plugin-svgo": "^8.0.1",

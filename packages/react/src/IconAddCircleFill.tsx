@@ -1,7 +1,7 @@
 /* eslint-disable */ // @ts-nocheck @ts-ignore
 import * as React from 'react';
-import type { SVGProps, Ref } from 'react';
-import { forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 const IconAddCircleFill = (
   {
     size = 24,
