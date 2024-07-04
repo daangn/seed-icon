@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "noEmit": false,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "jsx": "react",
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules"]
+}
