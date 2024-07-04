@@ -1410,7 +1410,9 @@ __metadata:
     "@svgr/plugin-jsx": "npm:^8.0.1"
     "@svgr/plugin-prettier": "npm:^8.0.1"
     "@svgr/plugin-svgo": "npm:^8.0.1"
+    "@types/findup-sync": "npm:^4.0.5"
     "@types/node": "npm:^20.14.9"
+    findup-sync: "npm:^5.0.0"
     svgo: "npm:^3.0.2"
     ts-node: "npm:^10.9.2"
     tslib: "npm:^2.6.3"
@@ -1724,6 +1726,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/braces@npm:*":
+  version: 3.0.4
+  resolution: "@types/braces@npm:3.0.4"
+  checksum: 10/7324497b6cc34c963c44d3f8516c67a83b749ab4f18defd9418b231b071af7ee8f0a0f345a52b204e867de80f684cabb21158512e1eaecbcebbabed1d1e357a3
+  languageName: node
+  linkType: hard
+
 "@types/cli-progress@npm:^3.11.5":
   version: 3.11.5
   resolution: "@types/cli-progress@npm:3.11.5"
@@ -1740,12 +1749,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/findup-sync@npm:^4.0.5":
+  version: 4.0.5
+  resolution: "@types/findup-sync@npm:4.0.5"
+  dependencies:
+    "@types/micromatch": "npm:^4.0.0"
+  checksum: 10/578e891568bb9b102df88011b294d590be38f957d084e2ae515ffdf24d32dcd45918f4902752e8691cb6e96ac16b753bc678d61f809bc59eb32a9aba9fbbd709
+  languageName: node
+  linkType: hard
+
 "@types/is-ci@npm:^3.0.0":
   version: 3.0.0
   resolution: "@types/is-ci@npm:3.0.0"
   dependencies:
     ci-info: "npm:^3.1.0"
   checksum: 10/7c1f1f16c1fa2134de7400d82766c83fa76057261ba890628af77a09382ebb92d945bb077b98cfcf3d40ab1469c9ffbd2278112867edbe57aa655f53547eb139
+  languageName: node
+  linkType: hard
+
+"@types/micromatch@npm:^4.0.0":
+  version: 4.0.9
+  resolution: "@types/micromatch@npm:4.0.9"
+  dependencies:
+    "@types/braces": "npm:*"
+  checksum: 10/324f4bcb4a7caa2048bdd650f442d2c24b5bf6bc95e4d63d4741bd234fdcf3cde140217bd477b2c02c7fb0034c7293037fd7b61429ace84e997dd3b4d3b2b2f7
   languageName: node
   linkType: hard
 
