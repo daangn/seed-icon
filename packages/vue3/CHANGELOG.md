@@ -4,7 +4,7 @@
 
 ### Patch Changes
 
-- Update icon assets from Figma
+- Add seed-icon attributes in vue components
 
 ## 0.7.0
 
