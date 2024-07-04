@@ -1,26 +1,17 @@
 {
-  "name": "@seed-design/icon",
-  "version": "0.6.2",
+  "name": "@seed-design/icon-monorepo",
+  "private": true,
+  "version": "0.0.0-thisisnotpublished",
   "repository": "https://github.com/daangn/seed-icon.git",
   "author": "junghyeonsu <jung660317@naver.com>",
   "license": "MIT",
   "packageManager": "yarn@4.3.1",
-  "publishConfig": {
-    "access": "public"
-  },
-  "sideEffects": false,
-  "files": [
-    "svg",
-    "drawable",
-    "pdf",
-    "xml"
-  ],
-  "workspaces": [
-    "packages/*"
-  ],
   "type": "module",
+  "workspaces": [
+    "packages/*",
+    "assets"
+  ],
   "scripts": {
-    "prepack": "yarn build",
     "generate:icona": "node --no-warnings=ExperimentalWarning --loader ts-node/esm icona.ts",
     "release": "yarn changeset publish",
     "cs-version": "changeset version && yarn install --no-immutable"

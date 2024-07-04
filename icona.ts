@@ -1,10 +1,10 @@
 import type { DrawableConfig, PDFConfig, PNGConfig, ReactConfig, SVGConfig, Vue2Config, Vue3Config } from "@icona/generator";
 import { generate } from "@icona/generator";
-import seedIconsPkg from "./package.json" assert { type: "json" };
+import assetPkg from "./assets/package.json" assert { type: "json" };
 
 const svgConfig: SVGConfig = {
   genMode: "recreate",
-  path: "svg",
+  path: "assets/svg",
   svgoConfig: {
     js2svg: {
       indent: 2,
@@ -16,7 +16,7 @@ const svgConfig: SVGConfig = {
         params: {
           attributes: [
             { "data-seed-icon": "true" },
-            { "data-seed-icon-version": seedIconsPkg.version },
+            { "data-seed-icon-version": assetPkg.version },
           ],
         },
       },
@@ -52,7 +52,7 @@ const svgConfig: SVGConfig = {
 const drawableConfig: DrawableConfig = {
   active: true,
   genMode: "recreate",
-  path: "drawable",
+  path: "assets/xml",
   svg2vectordrawableConfig: {},
   defaultColor: "@color/gray900",
 };
@@ -60,7 +60,7 @@ const drawableConfig: DrawableConfig = {
 const pdfConfig: PDFConfig = {
   active: true,
   genMode: "recreate",
-  path: "pdf",
+  path: "assets/pdf",
   pdfKitConfig: {
     size: [24, 24],
     margin: 0,
@@ -114,7 +114,7 @@ const reactConfig: ReactConfig = {
           params: {
             attributes: [
               { "data-seed-icon": "true" },
-              { "data-seed-icon-version": seedIconsPkg.version },
+              { "data-seed-icon-version": assetPkg.version },
             ],
           },
         },
@@ -158,7 +158,7 @@ const reactConfig: ReactConfig = {
 const pngConfig: PNGConfig = {
   active: true,
   genMode: "recreate",
-  path: "png",
+  path: "assets/png",
 };
 
 const vue2Config: Vue2Config = {

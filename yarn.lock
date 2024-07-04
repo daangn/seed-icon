@@ -1395,9 +1395,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@seed-design/icon@workspace:.":
+"@seed-design/assets@workspace:assets":
   version: 0.0.0-use.local
-  resolution: "@seed-design/icon@workspace:."
+  resolution: "@seed-design/assets@workspace:assets"
+  languageName: unknown
+  linkType: soft
+
+"@seed-design/icon-monorepo@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@seed-design/icon-monorepo@workspace:."
   dependencies:
     "@changesets/cli": "npm:^2.26.2"
     "@icona/generator": "npm:^0.7.1"

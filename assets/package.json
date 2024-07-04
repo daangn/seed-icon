@@ -1,0 +1,12 @@
+{
+  "name": "@seed-design/assets",
+  "version": "0.6.2",
+  "packageManager": "yarn@4.3.1",
+  "sideEffects": false,
+  "files": [
+    "svg",
+    "drawable",
+    "pdf",
+    "xml"
+  ]
+}
