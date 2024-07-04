@@ -162,17 +162,27 @@ const pngConfig: PNGConfig = {
 };
 
 const vue2Config: Vue2Config = {
-  path: "packages/vue2/src",
   active: true,
+  path: "packages/vue2/src",
+  genMode: "recreate",
   genIndexFile: true,
   genShimFile: true,
+  attributes: {
+    "data-seed-icon": "true",
+    "data-seed-icon-version": assetPkg.version,
+  }
 };
 
 const vue3Config: Vue3Config = {
-  path: "packages/vue3/src",
   active: true,
+  path: "packages/vue3/src",
+  genMode: "recreate",
   genIndexFile: true,
   genShimFile: true,
+  attributes: {
+    "data-seed-icon": "true",
+    "data-seed-icon-version": assetPkg.version,
+  }
 };
 
 generate({

@@ -922,11 +922,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@icona/generator@npm:^0.7.1":
-  version: 0.7.1
-  resolution: "@icona/generator@npm:0.7.1"
+"@icona/generator@npm:^0.7.2":
+  version: 0.7.2
+  resolution: "@icona/generator@npm:0.7.2"
   dependencies:
-    "@icona/types": "npm:^0.7.1"
+    "@icona/types": "npm:^0.7.2"
     "@svgr/core": "npm:^8.0.0"
     "@types/cli-progress": "npm:^3.11.5"
     cli-progress: "npm:^3.12.0"
@@ -937,14 +937,14 @@ __metadata:
     svg2vectordrawable: "npm:^2.9.1"
     svgo: "npm:^3.0.2"
     svgtofont: "npm:^4.2.0"
-  checksum: 10/96392293f6340031ff4ffce938e974f0fd664fc3cad16e1fc1d241fc126edc40af11d9d1f8d2e13defeed6761bd61e602c6f5daf4617fc785733aa26078d3d52
+  checksum: 10/a51b6f049b7162e45cb9aae4b4a2ffb8c888671a7f051b383cb5d0e54c1c86618eb018039e62f489241950c28340b656d38950281ac82b6f0daa3a2abcdc6627
   languageName: node
   linkType: hard
 
-"@icona/types@npm:^0.7.1":
-  version: 0.7.1
-  resolution: "@icona/types@npm:0.7.1"
-  checksum: 10/3c9e8d4e189ab8f1e1f573f725338ff1636e6ef9b88c19be0bdc5131d17d2f59d2979fd2c24df4575d0dede7245d9a3baae5881cb9280ad44a531f8eaf71abf3
+"@icona/types@npm:^0.7.2":
+  version: 0.7.2
+  resolution: "@icona/types@npm:0.7.2"
+  checksum: 10/e924afbfb904a2f1261ef57366144cc01426450f85e75738c8c15ba063cbf05af04b89d2900fe2c040974ab9d9bacd7a10c3186b6cdfdc1c2dca5db36efc51ea
   languageName: node
   linkType: hard
 
@@ -1406,7 +1406,7 @@ __metadata:
   resolution: "@seed-design/icon-monorepo@workspace:."
   dependencies:
     "@changesets/cli": "npm:^2.26.2"
-    "@icona/generator": "npm:^0.7.1"
+    "@icona/generator": "npm:^0.7.2"
     "@svgr/plugin-jsx": "npm:^8.0.1"
     "@svgr/plugin-prettier": "npm:^8.0.1"
     "@svgr/plugin-svgo": "npm:^8.0.1"
