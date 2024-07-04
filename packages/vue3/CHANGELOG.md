@@ -1,5 +1,11 @@
 # @seed-design/vue3-icon
 
+## 0.7.1
+
+### Patch Changes
+
+- Add seed-icon attributes in vue components
+
 ## 0.7.0
 
 ### Minor Changes

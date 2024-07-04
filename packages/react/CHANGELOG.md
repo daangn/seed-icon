@@ -1,5 +1,11 @@
 # @seed-design/react-icon
 
+## 0.7.1
+
+### Patch Changes
+
+- Add seed-icon attributes in vue components
+
 ## 0.7.0
 
 ### Minor Changes
@@ -7,6 +13,7 @@
 - New Packages
 
 <!-- 아래에는 `@seed-design/icon` 패키지 -->
+
 ## 0.6.2
 
 ### Patch Changes

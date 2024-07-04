@@ -1,4 +1,4 @@
-import { defineConfig } from "vite";
+import { type Plugin, defineConfig } from "vite";
 import { resolve } from "path";
 import react from "@vitejs/plugin-react";
 import { globSync } from "glob";
@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [
     react({}),
     dts({}),
-  ],
+  ] as Plugin[],
   build: {
     outDir: "lib",
     lib: {
