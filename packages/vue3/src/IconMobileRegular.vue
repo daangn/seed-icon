@@ -1,6 +1,6 @@
 <!-- eslint-disable --> <!-- @ts-nocheck @ts-ignore -->
 <template>
-  <svg data-seed-icon="true" data-seed-icon-version="0.7.1" :width="size" :height="size" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg data-seed-icon="true" data-seed-icon-version="0.7.2" :width="size" :height="size" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Weight=Regular">
 <g id="Union">
 <path d="M10.875 4.2C10.4332 4.2 10.075 4.55817 10.075 5C10.075 5.44183 10.4332 5.8 10.875 5.8H14.125C14.5668 5.8 14.925 5.44183 14.925 5C14.925 4.55817 14.5668 4.2 14.125 4.2H10.875Z" fill="#212124"/>
