@@ -1,5 +1,11 @@
 # @seed-design/vue2-icon
 
+## 0.7.2
+
+### Patch Changes
+
+- Update icon assets from Figma
+
 ## 0.7.1
 
 ### Patch Changes
