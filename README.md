@@ -1,6 +1,9 @@
 # Seed Design Icons
 
-SEED Design icons
+SEED Design icons V2
+
+> 해당 패키지는 V2 버전이고, 현재 당근은 V3 아이콘 리뉴얼이 되었습니다.
+> V3 아이콘은 코드단으로 공개되지 않습니다.
 
 ### Packages
 
