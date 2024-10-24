@@ -1,6 +1,6 @@
 <!-- eslint-disable --> <!-- @ts-nocheck @ts-ignore -->
 <template>
-  <svg data-seed-icon="true" data-seed-icon-version="0.7.2" :width="size" :height="size" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg data-seed-icon="true" data-seed-icon-version="0.7.3" :width="size" :height="size" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Weight=Regular">
 <g id="vector">
 <path d="M12.8845 11.279C14.1036 11.5326 15.2246 12.31 15.8547 13.4064C16.1574 13.9301 15.9856 14.5438 15.4783 14.8629C14.5864 15.4193 13.2609 15.673 12.0008 15.673C10.7407 15.673 9.40693 15.4275 8.52323 14.8629C8.01592 14.5438 7.86045 13.9219 8.14684 13.4064C8.7687 12.31 9.89787 11.549 11.1171 11.279C10.3152 10.9353 9.75877 10.1416 9.75877 9.21698C9.75877 7.97324 10.7652 6.9668 12.0008 6.9668C13.2363 6.9668 14.2427 7.97324 14.2427 9.21698C14.2427 10.1416 13.6863 10.9353 12.8845 11.279Z" fill="#212124"/>
