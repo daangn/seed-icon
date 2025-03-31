@@ -5,7 +5,7 @@
   "repository": "https://github.com/daangn/seed-icon.git",
   "author": "junghyeonsu <jung660317@naver.com>",
   "license": "MIT",
-  "packageManager": "yarn@4.3.1",
+  "packageManager": "yarn@4.8.1",
   "type": "module",
   "workspaces": [
     "packages/*",
