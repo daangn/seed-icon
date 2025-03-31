@@ -1,5 +1,11 @@
 # @seed-design/react-icon
 
+## 0.7.4
+
+### Patch Changes
+
+- external react, react/jsx-runtime
+
 ## 0.7.3
 
 ### Patch Changes

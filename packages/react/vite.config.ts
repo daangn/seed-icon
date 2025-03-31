@@ -16,5 +16,8 @@ export default defineConfig({
       entry: [resolve(__dirname, "src/index.ts"), ...globSync("src/*.tsx")],
       name: "SeedIcon",
     },
+    rollupOptions: {
+      external: ['react', 'react/jsx-runtime'],
+    },
   },
 });

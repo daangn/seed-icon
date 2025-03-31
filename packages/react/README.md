@@ -1,4 +1,6 @@
-# @seed-design/react-icon
+# @seed-design/react-icon (Deprecated)
+
+
 
 ### Install
 

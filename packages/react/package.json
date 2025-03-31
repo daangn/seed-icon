@@ -1,6 +1,6 @@
 {
   "name": "@seed-design/react-icon",
-  "version": "0.7.3",
+  "version": "0.7.4",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/daangn/seed-icon.git",
@@ -37,7 +37,7 @@
     }
   },
   "peerDependencies": {
-    "react": "17.x || 18.x"
+    "react": "17.x || 18.x || 19.x"
   },
   "scripts": {
     "prepack": "yarn build",
